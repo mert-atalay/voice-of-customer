@@ -1,0 +1,3467 @@
+{
+ "tagger": "model",
+ "model": "gpt-5.4-mini",
+ "calls": 21,
+ "chats": {
+  "c001": {
+   "topic": "cleanliness",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c002": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c003": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c004": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c005": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "gave_up"
+   ]
+  },
+  "c006": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "negative_language"
+   ]
+  },
+  "c007": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c008": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c009": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c010": {
+   "topic": "trial",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  },
+  "c011": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "gave_up"
+   ]
+  },
+  "c012": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c013": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "gave_up"
+   ]
+  },
+  "c014": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "gave_up"
+   ]
+  },
+  "c015": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c016": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c017": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "negative_language"
+   ]
+  },
+  "c018": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c019": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human"
+   ]
+  },
+  "c020": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "negative_language"
+   ]
+  },
+  "c021": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c022": {
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language"
+   ]
+  },
+  "c023": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c024": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human"
+   ]
+  },
+  "c025": {
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "no",
+   "signals": [
+    "negative_language"
+   ]
+  },
+  "c026": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "gave_up"
+   ]
+  },
+  "c027": {
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": []
+  },
+  "c028": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c029": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c030": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": []
+  },
+  "c031": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c032": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c033": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c034": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c035": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c036": {
+   "topic": "trial",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  },
+  "c037": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human"
+   ]
+  },
+  "c038": {
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c039": {
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c040": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c041": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c042": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c043": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "gave_up"
+   ]
+  },
+  "c044": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c045": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "negative_language"
+   ]
+  },
+  "c046": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "gave_up"
+   ]
+  },
+  "c047": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": []
+  },
+  "c048": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c049": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c050": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "negative_language"
+   ]
+  },
+  "c051": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c052": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c053": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c054": {
+   "topic": "trial",
+   "intent": "request",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "gave_up"
+   ]
+  },
+  "c055": {
+   "topic": "cleanliness",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": []
+  },
+  "c056": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c057": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c058": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "gave_up"
+   ]
+  },
+  "c059": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c060": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c061": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c062": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c063": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c064": {
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "yes",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c065": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c066": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c067": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c068": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "negative_language"
+   ]
+  },
+  "c069": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c070": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c071": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c072": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c073": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c074": {
+   "topic": "trial",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  },
+  "c075": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c076": {
+   "topic": "billing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c077": {
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  },
+  "c078": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c079": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "gave_up"
+   ]
+  },
+  "c080": {
+   "topic": "billing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c081": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c082": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c083": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": []
+  },
+  "c084": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "negative_language"
+   ]
+  },
+  "c085": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c086": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "asked_for_human",
+    "negative_language"
+   ]
+  },
+  "c087": {
+   "topic": "billing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c088": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c089": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c090": {
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "negative_language"
+   ]
+  },
+  "c091": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "negative_language"
+   ]
+  },
+  "c092": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c093": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  },
+  "c094": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c095": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c096": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "negative_language"
+   ]
+  },
+  "c097": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c098": {
+   "topic": "cleanliness",
+   "intent": "complaint",
+   "answered": "yes",
+   "signals": []
+  },
+  "c099": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood",
+    "gave_up"
+   ]
+  },
+  "c100": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c101": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "gave_up"
+   ]
+  },
+  "c102": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c103": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c104": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c105": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "negative_language"
+   ]
+  },
+  "c106": {
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c107": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood"
+   ]
+  },
+  "c108": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c109": {
+   "topic": "billing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c110": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c111": {
+   "topic": "other",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c112": {
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "partly",
+   "signals": [
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c113": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood"
+   ]
+  },
+  "c114": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c115": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood"
+   ]
+  },
+  "c116": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c117": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c118": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c119": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c120": {
+   "topic": "other",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood",
+    "asked_for_human",
+    "gave_up"
+   ]
+  },
+  "c121": {
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c122": {
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood",
+    "asked_for_human",
+    "negative_language"
+   ]
+  },
+  "c123": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c124": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c125": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c126": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c127": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c128": {
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c129": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "gave_up"
+   ]
+  },
+  "c130": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "asked_for_human",
+    "gave_up"
+   ]
+  },
+  "c131": {
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c132": {
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c133": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c134": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c135": {
+   "topic": "staff",
+   "intent": "praise",
+   "answered": "yes",
+   "signals": []
+  },
+  "c136": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "asked_for_human"
+   ]
+  },
+  "c137": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c138": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  },
+  "c139": {
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "yes",
+   "signals": []
+  },
+  "c140": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c141": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c142": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  },
+  "c143": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  },
+  "c144": {
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  },
+  "c145": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c146": {
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c147": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  },
+  "c148": {
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood"
+   ]
+  },
+  "c149": {
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question",
+    "bot_misunderstood",
+    "negative_language",
+    "gave_up"
+   ]
+  },
+  "c150": {
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ "reviews": {
+  "r001": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r002": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r003": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r004": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r005": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r006": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r007": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r008": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r009": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r010": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r011": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r012": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r013": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r014": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r015": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r016": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r017": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r018": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r019": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r020": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r021": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r022": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r023": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r024": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r025": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r026": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r027": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r028": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r029": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r030": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r031": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r032": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r033": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r034": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r035": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r036": {
+   "aspects": [
+    {
+     "aspect": "billing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r037": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r038": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r039": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r040": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r041": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r042": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r043": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r044": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r045": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r046": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r047": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r048": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r049": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r050": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r051": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r052": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "neutral"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r053": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r054": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r055": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r056": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r057": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r058": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r059": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r060": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r061": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r062": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r063": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r064": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r065": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r066": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r067": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r068": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r069": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r070": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r071": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r072": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r073": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r074": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r075": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r076": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r077": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r078": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r079": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r080": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r081": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r082": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r083": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r084": {
+   "aspects": [
+    {
+     "aspect": "billing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r085": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r086": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r087": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r088": {
+   "aspects": [
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r089": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r090": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r091": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r092": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r093": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r094": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r095": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r096": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r097": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r098": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r099": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r100": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r101": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r102": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r103": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r104": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r105": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r106": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r107": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r108": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r109": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r110": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r111": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r112": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r113": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r114": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r115": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "neutral"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r116": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r117": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r118": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r119": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r120": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r121": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r122": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r123": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r124": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r125": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r126": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r127": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r128": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r129": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r130": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r131": {
+   "aspects": [
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r132": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r133": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r134": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r135": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r136": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r137": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r138": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r139": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r140": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r141": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r142": {
+   "aspects": [
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r143": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r144": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r145": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r146": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r147": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r148": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r149": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r150": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r151": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r152": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r153": {
+   "aspects": [
+    {
+     "aspect": "billing",
+     "sentiment": "neutral"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r154": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r155": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r156": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r157": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r158": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r159": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r160": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "neutral"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r161": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r162": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r163": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r164": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r165": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r166": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r167": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r168": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r169": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r170": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r171": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r172": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r173": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r174": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r175": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r176": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r177": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r178": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r179": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r180": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "trial",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r181": {
+   "aspects": [
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r182": {
+   "aspects": [
+    {
+     "aspect": "schedule_hours",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r183": {
+   "aspects": [
+    {
+     "aspect": "crowding",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r184": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "parking",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r185": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r186": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r187": {
+   "aspects": [
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r188": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r189": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r190": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r191": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "neutral"
+    },
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r192": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r193": {
+   "aspects": [
+    {
+     "aspect": "pricing",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "billing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r194": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r195": {
+   "aspects": [
+    {
+     "aspect": "parking",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "facilities",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r196": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "cancellation",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "crowding",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r197": {
+   "aspects": [
+    {
+     "aspect": "classes",
+     "sentiment": "negative"
+    },
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  },
+  "r198": {
+   "aspects": [
+    {
+     "aspect": "cleanliness",
+     "sentiment": "positive"
+    },
+    {
+     "aspect": "pricing",
+     "sentiment": "negative"
+    }
+   ]
+  },
+  "r199": {
+   "aspects": [
+    {
+     "aspect": "facilities",
+     "sentiment": "neutral"
+    }
+   ]
+  },
+  "r200": {
+   "aspects": [
+    {
+     "aspect": "staff",
+     "sentiment": "positive"
+    }
+   ]
+  }
+ },
+ "invalid": [],
+ "stopped": null
+}

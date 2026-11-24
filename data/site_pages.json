@@ -1,0 +1,62 @@
+{
+ "note": "Synthetic. Which canonical questions the invented website already answers.",
+ "pages": [
+  {
+   "path": "/membership",
+   "title": "Membership and prices",
+   "answers": [
+    "pricing_monthly",
+    "pricing_family",
+    "pricing_joining_fee"
+   ]
+  },
+  {
+   "path": "/trial",
+   "title": "Free trial",
+   "answers": [
+    "trial_free",
+    "trial_book"
+   ]
+  },
+  {
+   "path": "/help/cancel",
+   "title": "How to cancel",
+   "answers": [
+    "cancel_how"
+   ]
+  },
+  {
+   "path": "/help/payments",
+   "title": "Payments",
+   "answers": [
+    "billing_date"
+   ]
+  },
+  {
+   "path": "/clubs",
+   "title": "Clubs, opening hours and facilities",
+   "answers": [
+    "hours_opening",
+    "facilities_pool",
+    "facilities_lockers",
+    "parking_available"
+   ]
+  },
+  {
+   "path": "/classes",
+   "title": "Classes and timetable",
+   "answers": [
+    "classes_timetable",
+    "classes_book",
+    "classes_beginner"
+   ]
+  },
+  {
+   "path": "/coaching",
+   "title": "Personal training",
+   "answers": [
+    "staff_pt"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+[project]
+name = "voice-of-customer"
+version = "0.1.0"
+description = "Turn chatbot conversations and reviews into tagged themes, scores and a question bank. Example on synthetic data."
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

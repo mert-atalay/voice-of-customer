@@ -1,0 +1,4839 @@
+[
+ {
+  "id": "c001",
+  "location": "Northgate",
+  "date": "2026-09-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "the changing rooms were dirty this morning"
+   },
+   {
+    "role": "bot",
+    "text": "Thanks for telling us. Please check with your club so they can look at it."
+   },
+   {
+    "role": "user",
+    "text": "Showres have not been cleaned in days."
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "brilliant. really"
+   },
+   {
+    "role": "user",
+    "text": "whatever, ill ask at the desk"
+   }
+  ],
+  "intended": {
+   "question_id": "cleanliness_complaint",
+   "topic": "cleanliness",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c002",
+  "location": "Northgate",
+  "date": "2026-08-25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how much is a membership"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c003",
+  "location": "Millbrook",
+  "date": "2026-08-13",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what are the quiet times?"
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c004",
+  "location": "Northgate",
+  "date": "2026-09-25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "price for a standard membership?"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c005",
+  "location": "Eastfield",
+  "date": "2026-10-24",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what are the holiday opening hours"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "whatever, ill ask at the desk"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_holiday",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up"
+   ]
+  }
+ },
+ {
+  "id": "c006",
+  "location": "Northgate",
+  "date": "2026-10-28",
+  "turns": [
+   {
+    "role": "user",
+    "text": "hi, what are your prices"
+   },
+   {
+    "role": "bot",
+    "text": "Our prices are on the Membership page. For discounts please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "that is quite general"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "what a waste of time"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "negative_language"
+   ]
+  }
+ },
+ {
+  "id": "c007",
+  "location": "Quayside",
+  "date": "2026-08-24",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you do guest passes. the front desk was closed when i came by"
+   },
+   {
+    "role": "bot",
+    "text": "Members can bring one guest a month for free."
+   },
+   {
+    "role": "user",
+    "text": "ok thank you"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c008",
+  "location": "Eastfield",
+  "date": "2026-09-08",
+  "turns": [
+   {
+    "role": "user",
+    "text": "any childcare at the gym?"
+   },
+   {
+    "role": "bot",
+    "text": "Facilities differ by club. Please check the Clubs page."
+   },
+   {
+    "role": "user",
+    "text": "right ok"
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c009",
+  "location": "Northgate",
+  "date": "2026-10-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "are there classes for beginners"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Classes marked Intro on the timetable are for beginners."
+   }
+  ],
+  "intended": {
+   "question_id": "classes_beginner",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c010",
+  "location": "Eastfield",
+  "date": "2026-08-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "i want to book a trial"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "cheers"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_book",
+   "topic": "trial",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c011",
+  "location": "Northgate",
+  "date": "2026-08-28",
+  "turns": [
+   {
+    "role": "user",
+    "text": "any childcare at the gym?"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "no. is there somewhere for children during classes"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "forget it"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c012",
+  "location": "Northgate",
+  "date": "2026-09-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "whats the process to end my membership. it was really busy when i visited"
+   },
+   {
+    "role": "bot",
+    "text": "You can cancel in the member area under Account, or in person at your club."
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_how",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c013",
+  "location": "Eastfield",
+  "date": "2026-08-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is the car park free for members"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. do i have to pay to park"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "is anyone actually there"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "whatever, ill ask at the desk"
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c014",
+  "location": "Northgate",
+  "date": "2026-08-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What are the quiet times?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "no. when is the gym quiet"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "get me someone from the front desk"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "never mind"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c015",
+  "location": "Eastfield",
+  "date": "2026-09-08",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How much do you charge a month?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry to hear that. I have noted it for the club team."
+   },
+   {
+    "role": "user",
+    "text": "again: whats the monthly price"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "is anyone actually there"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "brilliant. really."
+   },
+   {
+    "role": "user",
+    "text": "whatever, ill ask at the desk"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c016",
+  "location": "Northgate",
+  "date": "2026-08-04",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do i have to pay to park"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "again: how much is parking"
+   },
+   {
+    "role": "bot",
+    "text": "Parking is free for members for up to three hours."
+   },
+   {
+    "role": "user",
+    "text": "got it, thanks"
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c017",
+  "location": "Eastfield",
+  "date": "2026-10-31",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you have a student discount"
+   },
+   {
+    "role": "bot",
+    "text": "Our prices are on the Membership page. For discounts please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my question"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "this is useless"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_student",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "negative_language"
+   ]
+  }
+ },
+ {
+  "id": "c018",
+  "location": "Northgate",
+  "date": "2026-10-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "hi, what are your prices"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c019",
+  "location": "Eastfield",
+  "date": "2026-08-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "class schedule please"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "get me someone from the front desk"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "classes_timetable",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood"
+   ]
+  }
+ },
+ {
+  "id": "c020",
+  "location": "Millbrook",
+  "date": "2026-10-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you do guest passes?"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Classes marked Intro on the timetable are for beginners."
+   },
+   {
+    "role": "user",
+    "text": "bring a friend for free?"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Classes marked Intro on the timetable are for beginners."
+   },
+   {
+    "role": "user",
+    "text": "is anyone actually there"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "what a waste of time"
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c021",
+  "location": "Northgate",
+  "date": "2026-09-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "parking at the gym?"
+   },
+   {
+    "role": "bot",
+    "text": "Every club has a car park. Bike racks are by the entrance."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_available",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c022",
+  "location": "Millbrook",
+  "date": "2026-09-18",
+  "turns": [
+   {
+    "role": "user",
+    "text": "i was charegd twice this month"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "this is so annoying"
+   }
+  ],
+  "intended": {
+   "question_id": "billing_double",
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language"
+   ]
+  }
+ },
+ {
+  "id": "c023",
+  "location": "Northgate",
+  "date": "2026-10-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i try it out first. the front desk was closed when i came by"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "cheers"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c024",
+  "location": "Quayside",
+  "date": "2026-10-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how do i book a class"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry to hear that. I have noted it for the club team."
+   },
+   {
+    "role": "user",
+    "text": "is there a human i can speak to"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "classes_book",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood"
+   ]
+  }
+ },
+ {
+  "id": "c025",
+  "location": "Northgate",
+  "date": "2026-10-01",
+  "turns": [
+   {
+    "role": "user",
+    "text": "need to freeze my account, im injured"
+   },
+   {
+    "role": "bot",
+    "text": "Refund requests go to your club. They reply within five working days."
+   },
+   {
+    "role": "user",
+    "text": "this is so annoying"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_freeze",
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language"
+   ]
+  }
+ },
+ {
+  "id": "c026",
+  "location": "Northgate",
+  "date": "2026-10-25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "holiady hours"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry to hear that. I have noted it for the club team."
+   },
+   {
+    "role": "user",
+    "text": "no. Is the gym open on public holidays?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "agent"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_holiday",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c027",
+  "location": "Northgate",
+  "date": "2026-08-27",
+  "turns": [
+   {
+    "role": "user",
+    "text": "queued 15 minutes for a bench yesterday"
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_complaint",
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c028",
+  "location": "Northgate",
+  "date": "2026-10-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is the car park free for members"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean do i have to pay to park"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "agent"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c029",
+  "location": "Quayside",
+  "date": "2026-08-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a joinnig fee"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "any sign up fee?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c030",
+  "location": "Northgate",
+  "date": "2026-08-17",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how long before I can leave after cancelling"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "if i cancel today when does it stop"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c031",
+  "location": "Eastfield",
+  "date": "2026-08-18",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what does it cost per month. it was really busy when i visited"
+   },
+   {
+    "role": "bot",
+    "text": "The notice period is one full calendar month."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. how much is a membership"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c032",
+  "location": "Northgate",
+  "date": "2026-09-23",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how much is the family plan"
+   },
+   {
+    "role": "bot",
+    "text": "The family plan is 59 a month. It covers two adults and children under 16."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_family",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c033",
+  "location": "Millbrook",
+  "date": "2026-09-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i bring a frined"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "again: Do you do guest passes?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "is anynoe actually there"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c034",
+  "location": "Northgate",
+  "date": "2026-08-21",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i try the gym before joining. the front desk was closed when i came by"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c035",
+  "location": "Quayside",
+  "date": "2026-08-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "am i allowed to bring a guest"
+   },
+   {
+    "role": "bot",
+    "text": "Your club can help with that. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "bring a friend for free"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c036",
+  "location": "Millbrook",
+  "date": "2026-09-17",
+  "turns": [
+   {
+    "role": "user",
+    "text": "id like to sign up for the free trial"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "ok thank you"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_book",
+   "topic": "trial",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c037",
+  "location": "Eastfield",
+  "date": "2026-08-17",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there parking"
+   },
+   {
+    "role": "bot",
+    "text": "Most clubs have parking nearby. Please check with your club for details."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean do you have a car park"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "is there a human i can speak to"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_available",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c038",
+  "location": "Millbrook",
+  "date": "2026-08-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "where do I go to cancel"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "no, i mean i need to cancel, how"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   },
+   {
+    "role": "user",
+    "text": "what a waste of time"
+   },
+   {
+    "role": "user",
+    "text": "forget it"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_how",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c039",
+  "location": "Millbrook",
+  "date": "2026-10-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "The gym is overcrowded after work. Something needs to change."
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. queued 15 minutes for a bench yesetrday"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_complaint",
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c040",
+  "location": "Millbrook",
+  "date": "2026-08-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you offer personal training"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c041",
+  "location": "Eastfield",
+  "date": "2026-08-27",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How do I put my membership on hold while I travel?"
+   },
+   {
+    "role": "bot",
+    "text": "Membership changes are handled in the member area. For details please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my question"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "is there a human i can speak to"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_freeze",
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human"
+   ]
+  }
+ },
+ {
+  "id": "c042",
+  "location": "Quayside",
+  "date": "2026-09-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can my sister come with me once"
+   },
+   {
+    "role": "bot",
+    "text": "Your club can help with that. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my question"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c043",
+  "location": "Millbrook",
+  "date": "2026-09-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "when is the gym quiet"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean best time to come to avoid the rush?"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c044",
+  "location": "Northgate",
+  "date": "2026-08-23",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is it busy on weekday mornings. the front desk was closed when i came by"
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "so is that a yes or a no"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "thanks anyway"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "gave_up"
+   ]
+  }
+ },
+ {
+  "id": "c045",
+  "location": "Quayside",
+  "date": "2026-09-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a student rate?"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "no. Do students pay less?"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "this is so annoying"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_student",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c046",
+  "location": "Northgate",
+  "date": "2026-09-25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "if i cancel today when does it stop. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "again: do i have to cancel in avdance"
+   },
+   {
+    "role": "bot",
+    "text": "Quayside and Northgate have a pool and sauna. Eastfield and Millbrook do not."
+   },
+   {
+    "role": "user",
+    "text": "ok I'll figure it out myself"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c047",
+  "location": "Quayside",
+  "date": "2026-09-06",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do members pay for parking?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": []
+  }
+ },
+ {
+  "id": "c048",
+  "location": "Eastfield",
+  "date": "2026-09-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what time does the gym close on saturday"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c049",
+  "location": "Quayside",
+  "date": "2026-10-17",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there somewhere for children during classes"
+   },
+   {
+    "role": "bot",
+    "text": "Northgate has a supervised kids' room on weekday mornings."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c050",
+  "location": "Quayside",
+  "date": "2026-08-04",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do i have to pay to park"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. is pakring free"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "is there a human i can speak to"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "ugh"
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c051",
+  "location": "Eastfield",
+  "date": "2026-10-15",
+  "turns": [
+   {
+    "role": "user",
+    "text": "am i allowed to bring a guest"
+   },
+   {
+    "role": "bot",
+    "text": "Your club can help with that. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "no. can my sister come with me once"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "can i speak to a member of staff?"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c052",
+  "location": "Eastfield",
+  "date": "2026-10-16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i try it out first"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "oh i asked the wrong thing but that helps anyway"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c053",
+  "location": "Northgate",
+  "date": "2026-10-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what are your opening hours"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "cheers"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c054",
+  "location": "Northgate",
+  "date": "2026-09-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "bring a friend for free. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "Your club can help with that. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "ok but that doesnt answer it"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "gave_up"
+   ]
+  }
+ },
+ {
+  "id": "c055",
+  "location": "Northgate",
+  "date": "2026-08-20",
+  "turns": [
+   {
+    "role": "user",
+    "text": "there is never any spray to wipe the machines, its not hygienic. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "Thanks for telling us. Please check with your club so they can look at it."
+   }
+  ],
+  "intended": {
+   "question_id": "cleanliness_complaint",
+   "topic": "cleanliness",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c056",
+  "location": "Eastfield",
+  "date": "2026-09-07",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how do i book a pt session"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c057",
+  "location": "Eastfield",
+  "date": "2026-08-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "when do you shut on snudays"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c058",
+  "location": "Millbrook",
+  "date": "2026-08-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a notice period for cancelling?"
+   },
+   {
+    "role": "bot",
+    "text": "The notice period is one full calendar month."
+   },
+   {
+    "role": "user",
+    "text": "never mind, found it on the page too. thanks"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c059",
+  "location": "Northgate",
+  "date": "2026-08-31",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does it cost per month?"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c060",
+  "location": "Eastfield",
+  "date": "2026-10-04",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you have a pool"
+   },
+   {
+    "role": "bot",
+    "text": "Quayside and Northgate have a pool and sauna. Eastfield and Millbrook do not."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_pool",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c061",
+  "location": "Northgate",
+  "date": "2026-08-06",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What classes are on this week?"
+   },
+   {
+    "role": "bot",
+    "text": "We run classes every day. Please check the Classes page."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean where can i see the timetable"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "agent"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "classes_timetable",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c062",
+  "location": "Quayside",
+  "date": "2026-08-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "when is the gym quiet"
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c063",
+  "location": "Northgate",
+  "date": "2026-09-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "whats the monthly price. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "ok thank you"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c064",
+  "location": "Eastfield",
+  "date": "2026-09-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "my statement shows the membership twice"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "no. you took two payments from me in october"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry about that. A double charge is refunded automatically within five working days."
+   }
+  ],
+  "intended": {
+   "question_id": "billing_double",
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c065",
+  "location": "Millbrook",
+  "date": "2026-08-23",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a student rate?"
+   },
+   {
+    "role": "bot",
+    "text": "Our prices are on the Membership page. For discounts please check with your club."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_student",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c066",
+  "location": "Northgate",
+  "date": "2026-08-29",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what are your oepning hours"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "are you open on sundays"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "perfect thx"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c067",
+  "location": "Eastfield",
+  "date": "2026-09-22",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you do a day pass"
+   },
+   {
+    "role": "bot",
+    "text": "We offer trials at every club. Please check the Trial page for details."
+   },
+   {
+    "role": "user",
+    "text": "free trial??"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "get me someone from the front desk"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "this bot is terrible"
+   },
+   {
+    "role": "user",
+    "text": "ok I'll figure it out myself"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c068",
+  "location": "Eastfield",
+  "date": "2026-10-15",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a notice period for cancelling"
+   },
+   {
+    "role": "bot",
+    "text": "Every club has a car park. Bike racks are by the entrance."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. how long before I can leave after caneclling"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "wow thanks for nothing"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c069",
+  "location": "Northgate",
+  "date": "2026-08-25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How do I start a trial"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_book",
+   "topic": "trial",
+   "intent": "request",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c070",
+  "location": "Quayside",
+  "date": "2026-08-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a coach who can show me the machines"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c071",
+  "location": "Millbrook",
+  "date": "2026-10-09",
+  "turns": [
+   {
+    "role": "user",
+    "text": "are there showers"
+   },
+   {
+    "role": "bot",
+    "text": "Lockers and showers are free in every club. Bring your own padlock and towel."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_lockers",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c072",
+  "location": "Northgate",
+  "date": "2026-10-17",
+  "turns": [
+   {
+    "role": "user",
+    "text": "are you open on the bank holiday"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "again: are you open new years day"
+   },
+   {
+    "role": "bot",
+    "text": "Refund requests go to your club. They reply within five working days."
+   },
+   {
+    "role": "user",
+    "text": "this is useless"
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_holiday",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c073",
+  "location": "Northgate",
+  "date": "2026-09-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you have a student discount"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "again: do stuednts pay less?"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "Can I speak to a member of staff?"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_student",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c074",
+  "location": "Eastfield",
+  "date": "2026-10-17",
+  "turns": [
+   {
+    "role": "user",
+    "text": "id like to sign up for the free trial"
+   },
+   {
+    "role": "bot",
+    "text": "We offer trials at every club. Please check the Trial page for details."
+   },
+   {
+    "role": "user",
+    "text": "hm ok"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_book",
+   "topic": "trial",
+   "intent": "request",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c075",
+  "location": "Northgate",
+  "date": "2026-10-01",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you offer a trial?"
+   },
+   {
+    "role": "bot",
+    "text": "There is no joining fee at the moment. You only pay the monthly price."
+   },
+   {
+    "role": "user",
+    "text": "again: do you do a day pass"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c076",
+  "location": "Quayside",
+  "date": "2026-10-29",
+  "turns": [
+   {
+    "role": "user",
+    "text": "which date is the direct debit taken"
+   },
+   {
+    "role": "bot",
+    "text": "Payment is taken on the first of each month. You can change the date in the member area."
+   },
+   {
+    "role": "user",
+    "text": "got it, thanks"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "billing_date",
+   "topic": "billing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c077",
+  "location": "Northgate",
+  "date": "2026-08-29",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how do i leave the gym?"
+   },
+   {
+    "role": "bot",
+    "text": "You can cancel in the member area under Account, or in person at your club."
+   },
+   {
+    "role": "user",
+    "text": "perfect thx"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_how",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c078",
+  "location": "Northgate",
+  "date": "2026-10-13",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you do a day pass"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c079",
+  "location": "Quayside",
+  "date": "2026-09-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how much is parking"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "again: do i have to pay to park"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "Can I speak to a member of staff"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "i give up"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c080",
+  "location": "Eastfield",
+  "date": "2026-08-15",
+  "turns": [
+   {
+    "role": "user",
+    "text": "why have i been charged twice"
+   },
+   {
+    "role": "bot",
+    "text": "Billing is handled by your club. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "that is quite genreal"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "is there a human i can speak to"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "billing_double",
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human"
+   ]
+  }
+ },
+ {
+  "id": "c081",
+  "location": "Quayside",
+  "date": "2026-10-18",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What are the quiet times"
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c082",
+  "location": "Quayside",
+  "date": "2026-10-03",
+  "turns": [
+   {
+    "role": "user",
+    "text": "hi, what are your prices"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "ok ill just book online then, thanks"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c083",
+  "location": "Eastfield",
+  "date": "2026-08-16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "are you open new years day"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "whatever, ill ask at the desk"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_holiday",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "gave_up"
+   ]
+  }
+ },
+ {
+  "id": "c084",
+  "location": "Millbrook",
+  "date": "2026-10-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how much notice do i need to give to cancel"
+   },
+   {
+    "role": "bot",
+    "text": "Membership changes are handled in the member area. For details please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "what is the notice period"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "not helpful at all"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c085",
+  "location": "Eastfield",
+  "date": "2026-09-09",
+  "turns": [
+   {
+    "role": "user",
+    "text": "family price?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry to hear that. I have noted it for the club team."
+   },
+   {
+    "role": "user",
+    "text": "no. is there a family membership and what does it cost?"
+   },
+   {
+    "role": "bot",
+    "text": "The family plan is 59 a month. It covers two adults and children under 16."
+   },
+   {
+    "role": "user",
+    "text": "got it, thanks"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_family",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c086",
+  "location": "Northgate",
+  "date": "2026-10-20",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Do studnets pay less"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "again: im a student, is it cheaper"
+   },
+   {
+    "role": "bot",
+    "text": "Every club has a car park. Bike racks are by the entrance."
+   },
+   {
+    "role": "user",
+    "text": "get me someone from the front desk"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "what a waste of time"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_student",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c087",
+  "location": "Northgate",
+  "date": "2026-09-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "when do you take payment"
+   },
+   {
+    "role": "bot",
+    "text": "Clubs are usually quietest between 1pm and 4pm on weekdays."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. can i change my payment date"
+   },
+   {
+    "role": "bot",
+    "text": "Payment is taken on the first of each month. You can change the date in the member area."
+   },
+   {
+    "role": "user",
+    "text": "thanks"
+   }
+  ],
+  "intended": {
+   "question_id": "billing_date",
+   "topic": "billing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c088",
+  "location": "Millbrook",
+  "date": "2026-10-09",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there an admin fee when you join. my friend says the classes are good"
+   },
+   {
+    "role": "bot",
+    "text": "There is no joining fee at the moment. You only pay the monthly price."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c089",
+  "location": "Eastfield",
+  "date": "2026-08-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a family membership and what does it cost?"
+   },
+   {
+    "role": "bot",
+    "text": "The family plan is 59 a month. It covers two adults and children under 16."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_family",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c090",
+  "location": "Northgate",
+  "date": "2026-09-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "double payment on my account, not happy"
+   },
+   {
+    "role": "bot",
+    "text": "Billing is handled by your club. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my question"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "billing_double",
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c091",
+  "location": "Northgate",
+  "date": "2026-08-23",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a creche?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   },
+   {
+    "role": "user",
+    "text": "again: do you have childcare"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "ridiculous"
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c092",
+  "location": "Eastfield",
+  "date": "2026-08-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "what clasess do you have"
+   },
+   {
+    "role": "bot",
+    "text": "The class timetable for each club is on the Classes page. It is updated every Friday."
+   },
+   {
+    "role": "user",
+    "text": "perfect thx"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "classes_timetable",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c093",
+  "location": "Quayside",
+  "date": "2026-08-15",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is it busy on weekday mornings"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. when is it least crowded"
+   },
+   {
+    "role": "bot",
+    "text": "Lockers and showers are free in every club. Bring your own padlock and towel."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c094",
+  "location": "Eastfield",
+  "date": "2026-08-06",
+  "turns": [
+   {
+    "role": "user",
+    "text": "opneing hours?"
+   },
+   {
+    "role": "bot",
+    "text": "Payment is taken on the first of each month. You can change the date in the member area."
+   },
+   {
+    "role": "user",
+    "text": "when do you close toinght"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c095",
+  "location": "Eastfield",
+  "date": "2026-09-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i bring my kids while i train"
+   },
+   {
+    "role": "bot",
+    "text": "Facilities differ by club. Please check the Clubs page."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c096",
+  "location": "Eastfield",
+  "date": "2026-08-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Can I get a personal trainer"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "get me someone from the front desk"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "brilliant. really."
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "negative_language"
+   ]
+  }
+ },
+ {
+  "id": "c097",
+  "location": "Northgate",
+  "date": "2026-08-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "any sign up fee?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   },
+   {
+    "role": "user",
+    "text": "no. is there an admin fee when you join"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "is anyone actually there"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c098",
+  "location": "Eastfield",
+  "date": "2026-09-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "there is never any spray to wipe the machines, its not hygienic. it was really busy when i visited"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry to hear that. I have noted it for the club team."
+   },
+   {
+    "role": "user",
+    "text": "ok thank you"
+   }
+  ],
+  "intended": {
+   "question_id": "cleanliness_complaint",
+   "topic": "cleanliness",
+   "intent": "complaint",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c099",
+  "location": "Eastfield",
+  "date": "2026-09-25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a creche?"
+   },
+   {
+    "role": "bot",
+    "text": "You can book a trial on the Trial page. Pick your club and a start day."
+   },
+   {
+    "role": "user",
+    "text": "again: any childcare at the gym?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry about that. A double charge is refunded automatically within five working days."
+   },
+   {
+    "role": "user",
+    "text": "ok I'll figure it out myeslf"
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c100",
+  "location": "Eastfield",
+  "date": "2026-08-29",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a spin class on weekday evenings"
+   },
+   {
+    "role": "bot",
+    "text": "The class timetable for each club is on the Classes page. It is updated every Friday."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "classes_timetable",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c101",
+  "location": "Eastfield",
+  "date": "2026-09-02",
+  "turns": [
+   {
+    "role": "user",
+    "text": "hours over christmas?"
+   },
+   {
+    "role": "bot",
+    "text": "Our usual opening hours are on the Clubs page. Some days differ, so please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean What are the holiday opening hours?"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "ok I'll figure it out myself"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "hours_holiday",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c102",
+  "location": "Northgate",
+  "date": "2026-10-18",
+  "turns": [
+   {
+    "role": "user",
+    "text": "which clubs have a swimming pool"
+   },
+   {
+    "role": "bot",
+    "text": "Quayside and Northgate have a pool and sauna. Eastfield and Millbrook do not."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_pool",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c103",
+  "location": "Quayside",
+  "date": "2026-09-07",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is parking free"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "again: Do members pay for parking?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c104",
+  "location": "Quayside",
+  "date": "2026-08-29",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a family membership and what does it cost?"
+   },
+   {
+    "role": "bot",
+    "text": "The family plan is 59 a month. It covers two adults and children under 16."
+   },
+   {
+    "role": "user",
+    "text": "ok thank you"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_family",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c105",
+  "location": "Quayside",
+  "date": "2026-10-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you have a student discount"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. student price??"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I do not have an answer for that."
+   },
+   {
+    "role": "user",
+    "text": "what a waste of time"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_student",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c106",
+  "location": "Northgate",
+  "date": "2026-10-12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "The gym is ovecrrowded after work. Something needs to change."
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my question"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_complaint",
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c107",
+  "location": "Quayside",
+  "date": "2026-09-16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What are the quiet times?"
+   },
+   {
+    "role": "bot",
+    "text": "You can book classes up to seven days ahead on the Classes page or in the member area."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. when is it least crwoded"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c108",
+  "location": "Quayside",
+  "date": "2026-09-01",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you offer personal training"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   },
+   {
+    "role": "user",
+    "text": "got it, thanks"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c109",
+  "location": "Eastfield",
+  "date": "2026-08-31",
+  "turns": [
+   {
+    "role": "user",
+    "text": "which date is the direct debit taken"
+   },
+   {
+    "role": "bot",
+    "text": "Payment is taken on the first of each month. You can change the date in the member area."
+   },
+   {
+    "role": "user",
+    "text": "ok ill just book online then, thanks"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "billing_date",
+   "topic": "billing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c110",
+  "location": "Eastfield",
+  "date": "2026-09-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "free trial??"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "cheers"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c111",
+  "location": "Northgate",
+  "date": "2026-08-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "am i allowed to bring a guest"
+   },
+   {
+    "role": "bot",
+    "text": "Members can bring one guest a month for free."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c112",
+  "location": "Northgate",
+  "date": "2026-10-31",
+  "turns": [
+   {
+    "role": "user",
+    "text": "i need to cancel, how"
+   },
+   {
+    "role": "bot",
+    "text": "Membership changes are handled in the member area. For details please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "no. how do i leave the gym"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "ugh"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_how",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c113",
+  "location": "Eastfield",
+  "date": "2026-10-05",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is the notice period?"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that information."
+   },
+   {
+    "role": "user",
+    "text": "do i have to cancel in advance"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c114",
+  "location": "Quayside",
+  "date": "2026-09-16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there an admin fee when you join"
+   },
+   {
+    "role": "bot",
+    "text": "Our prices are on the Membership page. For discounts please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my question"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "not heplful at all"
+   },
+   {
+    "role": "user",
+    "text": "nvm"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "gave_up",
+    "negative_language"
+   ]
+  }
+ },
+ {
+  "id": "c115",
+  "location": "Northgate",
+  "date": "2026-08-18",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i try the gym before joining?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. Do you offer a trial?"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c116",
+  "location": "Eastfield",
+  "date": "2026-08-27",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Do I pay anything upfront?"
+   },
+   {
+    "role": "bot",
+    "text": "There is no joining fee at the moment. You only pay the monthly price."
+   },
+   {
+    "role": "user",
+    "text": "perfect thx"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c117",
+  "location": "Quayside",
+  "date": "2026-09-11",
+  "turns": [
+   {
+    "role": "user",
+    "text": "how much is a membership"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "perfect thx"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c118",
+  "location": "Eastfield",
+  "date": "2026-09-04",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is it busy on weekday mornings. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "yes but what about my qusetion"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c119",
+  "location": "Millbrook",
+  "date": "2026-08-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Can I get a personal trainer"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c120",
+  "location": "Northgate",
+  "date": "2026-10-08",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i bring a friend. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "bring a friend for free?"
+   },
+   {
+    "role": "bot",
+    "text": "Refund requests go to your club. They reply within five working days."
+   },
+   {
+    "role": "user",
+    "text": "get me soemone from the front desk"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "gave_up",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c121",
+  "location": "Quayside",
+  "date": "2026-08-01",
+  "turns": [
+   {
+    "role": "user",
+    "text": "i have never done a class, which one should i pick"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Classes marked Intro on the timetable are for beginners."
+   }
+  ],
+  "intended": {
+   "question_id": "classes_beginner",
+   "topic": "classes",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c122",
+  "location": "Eastfield",
+  "date": "2026-09-18",
+  "turns": [
+   {
+    "role": "user",
+    "text": "best time to come to avoid the rush?"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "how busy is it at 6pm"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "is anyone actually there"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "what a waste of time"
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_quiet",
+   "topic": "crowding",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c123",
+  "location": "Eastfield",
+  "date": "2026-08-16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "are there lockres"
+   },
+   {
+    "role": "bot",
+    "text": "Lockers and showers are free in every club. Bring your own padlock and towel."
+   },
+   {
+    "role": "user",
+    "text": "got it, thanks"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_lockers",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c124",
+  "location": "Quayside",
+  "date": "2026-10-27",
+  "turns": [
+   {
+    "role": "user",
+    "text": "price for a stanadrd membership?"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c125",
+  "location": "Quayside",
+  "date": "2026-10-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "price for a standard membership. btw the car park was full last time"
+   },
+   {
+    "role": "bot",
+    "text": "Our prices are on the Membership page. For discounts please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "ok but that doesnt answer it"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c126",
+  "location": "Millbrook",
+  "date": "2026-09-09",
+  "turns": [
+   {
+    "role": "user",
+    "text": "any sign up fee"
+   },
+   {
+    "role": "bot",
+    "text": "There is no joining fee at the moment. You only pay the monthly price."
+   },
+   {
+    "role": "user",
+    "text": "never mind, found it on the page too. thanks"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c127",
+  "location": "Quayside",
+  "date": "2026-09-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "if i cancel today when does it stop"
+   },
+   {
+    "role": "bot",
+    "text": "The notice period is one full calendar month."
+   },
+   {
+    "role": "user",
+    "text": "cheers"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_notice",
+   "topic": "cancellation",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c128",
+  "location": "Quayside",
+  "date": "2026-08-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is the car park free for members"
+   },
+   {
+    "role": "bot",
+    "text": "Clubs are usually quietest between 1pm and 4pm on weekdays."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean how much is pakring"
+   },
+   {
+    "role": "bot",
+    "text": "The family plan is 59 a month. It covers two adults and children under 16."
+   },
+   {
+    "role": "user",
+    "text": "ugh"
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "parking_cost",
+   "topic": "parking",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c129",
+  "location": "Eastfield",
+  "date": "2026-10-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i try the gym before joining"
+   },
+   {
+    "role": "bot",
+    "text": "We offer trials at every club. Please check the Trial page for details."
+   },
+   {
+    "role": "user",
+    "text": "ok but that doesnt answer it"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "ill just call the gym"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "gave_up"
+   ]
+  }
+ },
+ {
+  "id": "c130",
+  "location": "Quayside",
+  "date": "2026-10-03",
+  "turns": [
+   {
+    "role": "user",
+    "text": "bring a friend for free"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "can i talk to a person"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   },
+   {
+    "role": "user",
+    "text": "i give up"
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "asked_for_human",
+    "bot_misunderstood",
+    "gave_up"
+   ]
+  }
+ },
+ {
+  "id": "c131",
+  "location": "Eastfield",
+  "date": "2026-08-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "the gym is overcrowded after work. something needs to change."
+   },
+   {
+    "role": "bot",
+    "text": "Busy times differ by club. Please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "no, i mean queued 15 minutes for a bench yesterday"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "crowding_complaint",
+   "topic": "crowding",
+   "intent": "complaint",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c132",
+  "location": "Northgate",
+  "date": "2026-08-08",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Can I get a personal trainer?"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "no, i mean how do i book a pt session"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Personal training can be booked on the Coaching page."
+   }
+  ],
+  "intended": {
+   "question_id": "staff_pt",
+   "topic": "staff",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c133",
+  "location": "Quayside",
+  "date": "2026-08-15",
+  "turns": [
+   {
+    "role": "user",
+    "text": "any sign up fee?"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "no. is there a joining fee"
+   },
+   {
+    "role": "bot",
+    "text": "There is no joining fee at the moment. You only pay the monthly price."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_joining_fee",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c134",
+  "location": "Quayside",
+  "date": "2026-09-08",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you do a day pass"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "got it, thanks"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c135",
+  "location": "Quayside",
+  "date": "2026-10-20",
+  "turns": [
+   {
+    "role": "user",
+    "text": "The trainer who ran my induction was brilliant, please pass on my thanks."
+   },
+   {
+    "role": "bot",
+    "text": "Thank you. I will pass that on to the team."
+   },
+   {
+    "role": "user",
+    "text": "ok thank you"
+   }
+  ],
+  "intended": {
+   "question_id": "staff_praise",
+   "topic": "staff",
+   "intent": "praise",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c136",
+  "location": "Northgate",
+  "date": "2026-10-06",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there somewhere for children during classes"
+   },
+   {
+    "role": "bot",
+    "text": "Facilities differ by club. Please check the Clubs page."
+   },
+   {
+    "role": "user",
+    "text": "can i bring my kids while i train"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "Can I speak to a member of staff"
+   },
+   {
+    "role": "bot",
+    "text": "I cannot transfer this chat. The front desk can help during opening hours."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "asked_for_human",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c137",
+  "location": "Northgate",
+  "date": "2026-10-04",
+  "turns": [
+   {
+    "role": "user",
+    "text": "do you provdie towels. i saw the price went up"
+   },
+   {
+    "role": "bot",
+    "text": "Facilities differ by club. Please check the Clubs page."
+   },
+   {
+    "role": "user",
+    "text": "that is quite general"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_lockers",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c138",
+  "location": "Eastfield",
+  "date": "2026-10-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i bring a friend"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "no, i mean do you do guest passes?"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry, I did not understand that. Could you rephrase?"
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "no",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c139",
+  "location": "Quayside",
+  "date": "2026-08-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "my statement shows the membership twice"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry about that. A double charge is refunded automatically within five working days."
+   }
+  ],
+  "intended": {
+   "question_id": "billing_double",
+   "topic": "billing",
+   "intent": "complaint",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c140",
+  "location": "Northgate",
+  "date": "2026-08-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a free trial"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c141",
+  "location": "Quayside",
+  "date": "2026-08-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "can i bring a friend"
+   },
+   {
+    "role": "bot",
+    "text": "Your club can help with that. Please check with them."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   }
+  ],
+  "intended": {
+   "question_id": "other_guest",
+   "topic": "other",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c142",
+  "location": "Northgate",
+  "date": "2026-09-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "opeinng hours?"
+   },
+   {
+    "role": "bot",
+    "text": "I am not sure I follow. Can you say that another way?"
+   },
+   {
+    "role": "user",
+    "text": "no. What time do you open?"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "You are welcome. Anything else?"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c143",
+  "location": "Northgate",
+  "date": "2026-10-14",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Do you offer a trial?"
+   },
+   {
+    "role": "bot",
+    "text": "We offer trials at every club. Please check the Trial page for details."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ },
+ {
+  "id": "c144",
+  "location": "Eastfield",
+  "date": "2026-10-28",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How do I put my membership on hold while I travel?"
+   },
+   {
+    "role": "bot",
+    "text": "Membership changes are handled in the member area. For details please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "Can I freeze my membership?"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   }
+  ],
+  "intended": {
+   "question_id": "cancel_freeze",
+   "topic": "cancellation",
+   "intent": "request",
+   "answered": "partly",
+   "signals": [
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c145",
+  "location": "Northgate",
+  "date": "2026-09-15",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How much do you charge a month?"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c146",
+  "location": "Quayside",
+  "date": "2026-10-19",
+  "turns": [
+   {
+    "role": "user",
+    "text": "is there a free trial. my friend says the classes are good"
+   },
+   {
+    "role": "bot",
+    "text": "Yes. Every club offers a free three-day trial. You can start one from the Trial page."
+   }
+  ],
+  "intended": {
+   "question_id": "trial_free",
+   "topic": "trial",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c147",
+  "location": "Northgate",
+  "date": "2026-08-24",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What time do you open?"
+   },
+   {
+    "role": "bot",
+    "text": "All clubs are open 6am to 10pm on weekdays and 8am to 8pm at weekends."
+   },
+   {
+    "role": "user",
+    "text": "great, thanks!"
+   },
+   {
+    "role": "bot",
+    "text": "Happy to help."
+   }
+  ],
+  "intended": {
+   "question_id": "hours_opening",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "yes",
+   "signals": []
+  }
+ },
+ {
+  "id": "c148",
+  "location": "Quayside",
+  "date": "2026-08-10",
+  "turns": [
+   {
+    "role": "user",
+    "text": "price for a standard membership"
+   },
+   {
+    "role": "bot",
+    "text": "I can help with memberships, classes and opening hours. What would you like to know?"
+   },
+   {
+    "role": "user",
+    "text": "whats the monthly price"
+   },
+   {
+    "role": "bot",
+    "text": "Standard membership is 34 a month. Prices for every plan are on the Membership page."
+   },
+   {
+    "role": "user",
+    "text": "perfect thx"
+   }
+  ],
+  "intended": {
+   "question_id": "pricing_monthly",
+   "topic": "pricing",
+   "intent": "question",
+   "answered": "yes",
+   "signals": [
+    "bot_misunderstood",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c149",
+  "location": "Northgate",
+  "date": "2026-10-30",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is there a cerche"
+   },
+   {
+    "role": "bot",
+    "text": "Facilities differ by club. Please check the Clubs page."
+   },
+   {
+    "role": "user",
+    "text": "thats not what i asked. do you have childcare"
+   },
+   {
+    "role": "bot",
+    "text": "I do not have that detail. Your club can confirm it."
+   },
+   {
+    "role": "user",
+    "text": "this is useless"
+   },
+   {
+    "role": "user",
+    "text": "ok ill figure it out myself"
+   },
+   {
+    "role": "bot",
+    "text": "Sorry I could not help more."
+   }
+  ],
+  "intended": {
+   "question_id": "facilities_childcare",
+   "topic": "facilities",
+   "intent": "question",
+   "answered": "partly",
+   "signals": [
+    "gave_up",
+    "negative_language",
+    "repeated_question"
+   ]
+  }
+ },
+ {
+  "id": "c150",
+  "location": "Northgate",
+  "date": "2026-10-26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Is the gym open on public holidays?"
+   },
+   {
+    "role": "bot",
+    "text": "Our usual opening hours are on the Clubs page. Some days differ, so please check with your club."
+   },
+   {
+    "role": "user",
+    "text": "ok"
+   }
+  ],
+  "intended": {
+   "question_id": "hours_holiday",
+   "topic": "schedule_hours",
+   "intent": "question",
+   "answered": "partly",
+   "signals": []
+  }
+ }
+]

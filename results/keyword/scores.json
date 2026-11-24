@@ -1,0 +1,1233 @@
+{
+ "synthetic": true,
+ "tagger": "keyword",
+ "model": null,
+ "counts": {
+  "chats": 150,
+  "reviews": 200,
+  "tagged_chats": 150,
+  "tagged_reviews": 200,
+  "invalid": 0
+ },
+ "themes": {
+  "chat_topics": [
+   {
+    "topic": "pricing",
+    "count": 30
+   },
+   {
+    "topic": "trial",
+    "count": 17
+   },
+   {
+    "topic": "other",
+    "count": 15
+   },
+   {
+    "topic": "crowding",
+    "count": 14
+   },
+   {
+    "topic": "cancellation",
+    "count": 13
+   },
+   {
+    "topic": "parking",
+    "count": 12
+   },
+   {
+    "topic": "schedule_hours",
+    "count": 12
+   },
+   {
+    "topic": "facilities",
+    "count": 10
+   },
+   {
+    "topic": "staff",
+    "count": 10
+   },
+   {
+    "topic": "classes",
+    "count": 8
+   },
+   {
+    "topic": "billing",
+    "count": 6
+   },
+   {
+    "topic": "cleanliness",
+    "count": 3
+   }
+  ],
+  "chat_intents": {
+   "question": 131,
+   "complaint": 11,
+   "request": 7,
+   "praise": 1
+  },
+  "review_aspects": [
+   {
+    "aspect": "staff",
+    "mentions": 61,
+    "negative": 7,
+    "neutral": 21,
+    "positive": 33
+   },
+   {
+    "aspect": "facilities",
+    "mentions": 55,
+    "negative": 11,
+    "neutral": 16,
+    "positive": 28
+   },
+   {
+    "aspect": "classes",
+    "mentions": 45,
+    "negative": 4,
+    "neutral": 16,
+    "positive": 25
+   },
+   {
+    "aspect": "crowding",
+    "mentions": 38,
+    "negative": 22,
+    "neutral": 5,
+    "positive": 11
+   },
+   {
+    "aspect": "cleanliness",
+    "mentions": 33,
+    "negative": 9,
+    "neutral": 11,
+    "positive": 13
+   },
+   {
+    "aspect": "parking",
+    "mentions": 29,
+    "negative": 10,
+    "neutral": 12,
+    "positive": 7
+   },
+   {
+    "aspect": "pricing",
+    "mentions": 28,
+    "negative": 9,
+    "neutral": 7,
+    "positive": 12
+   },
+   {
+    "aspect": "cancellation",
+    "mentions": 17,
+    "negative": 8,
+    "neutral": 6,
+    "positive": 3
+   },
+   {
+    "aspect": "trial",
+    "mentions": 16,
+    "negative": 1,
+    "neutral": 11,
+    "positive": 4
+   },
+   {
+    "aspect": "billing",
+    "mentions": 13,
+    "negative": 7,
+    "neutral": 4,
+    "positive": 2
+   },
+   {
+    "aspect": "schedule_hours",
+    "mentions": 10,
+    "negative": 3,
+    "neutral": 1,
+    "positive": 6
+   }
+  ]
+ },
+ "frustration": {
+  "per_chat": {
+   "c001": 45,
+   "c002": 0,
+   "c003": 10,
+   "c004": 0,
+   "c005": 40,
+   "c006": 45,
+   "c007": 0,
+   "c008": 10,
+   "c009": 0,
+   "c010": 0,
+   "c011": 65,
+   "c012": 0,
+   "c013": 60,
+   "c014": 95,
+   "c015": 60,
+   "c016": 20,
+   "c017": 45,
+   "c018": 0,
+   "c019": 50,
+   "c020": 45,
+   "c021": 0,
+   "c022": 60,
+   "c023": 0,
+   "c024": 50,
+   "c025": 20,
+   "c026": 95,
+   "c027": 10,
+   "c028": 70,
+   "c029": 45,
+   "c030": 60,
+   "c031": 20,
+   "c032": 0,
+   "c033": 45,
+   "c034": 0,
+   "c035": 25,
+   "c036": 0,
+   "c037": 70,
+   "c038": 100,
+   "c039": 45,
+   "c040": 0,
+   "c041": 50,
+   "c042": 25,
+   "c043": 85,
+   "c044": 25,
+   "c045": 60,
+   "c046": 20,
+   "c047": 25,
+   "c048": 0,
+   "c049": 0,
+   "c050": 70,
+   "c051": 50,
+   "c052": 20,
+   "c053": 0,
+   "c054": 50,
+   "c055": 10,
+   "c056": 0,
+   "c057": 0,
+   "c058": 50,
+   "c059": 0,
+   "c060": 0,
+   "c061": 70,
+   "c062": 10,
+   "c063": 0,
+   "c064": 0,
+   "c065": 10,
+   "c066": 20,
+   "c067": 90,
+   "c068": 60,
+   "c069": 0,
+   "c070": 0,
+   "c071": 0,
+   "c072": 100,
+   "c073": 70,
+   "c074": 10,
+   "c075": 20,
+   "c076": 0,
+   "c077": 0,
+   "c078": 0,
+   "c079": 95,
+   "c080": 50,
+   "c081": 10,
+   "c082": 50,
+   "c083": 25,
+   "c084": 65,
+   "c085": 20,
+   "c086": 100,
+   "c087": 20,
+   "c088": 0,
+   "c089": 0,
+   "c090": 25,
+   "c091": 80,
+   "c092": 0,
+   "c093": 35,
+   "c094": 20,
+   "c095": 10,
+   "c096": 70,
+   "c097": 60,
+   "c098": 0,
+   "c099": 20,
+   "c100": 0,
+   "c101": 45,
+   "c102": 0,
+   "c103": 45,
+   "c104": 0,
+   "c105": 80,
+   "c106": 25,
+   "c107": 60,
+   "c108": 0,
+   "c109": 50,
+   "c110": 0,
+   "c111": 0,
+   "c112": 45,
+   "c113": 60,
+   "c114": 50,
+   "c115": 35,
+   "c116": 0,
+   "c117": 0,
+   "c118": 25,
+   "c119": 0,
+   "c120": 65,
+   "c121": 0,
+   "c122": 65,
+   "c123": 0,
+   "c124": 0,
+   "c125": 25,
+   "c126": 50,
+   "c127": 0,
+   "c128": 70,
+   "c129": 50,
+   "c130": 75,
+   "c131": 45,
+   "c132": 35,
+   "c133": 20,
+   "c134": 0,
+   "c135": 0,
+   "c136": 50,
+   "c137": 25,
+   "c138": 60,
+   "c139": 0,
+   "c140": 0,
+   "c141": 10,
+   "c142": 35,
+   "c143": 10,
+   "c144": 45,
+   "c145": 0,
+   "c146": 0,
+   "c147": 0,
+   "c148": 35,
+   "c149": 65,
+   "c150": 10
+  },
+  "by_topic": [
+   {
+    "topic": "pricing",
+    "count": 30,
+    "mean_frustration": 28.2,
+    "high_share": 0.3,
+    "unanswered_share": 0.433
+   },
+   {
+    "topic": "trial",
+    "count": 17,
+    "mean_frustration": 13.8,
+    "high_share": 0.118,
+    "unanswered_share": 0.118
+   },
+   {
+    "topic": "other",
+    "count": 15,
+    "mean_frustration": 24.7,
+    "high_share": 0.2,
+    "unanswered_share": 0.533
+   },
+   {
+    "topic": "crowding",
+    "count": 14,
+    "mean_frustration": 37.1,
+    "high_share": 0.286,
+    "unanswered_share": 0.571
+   },
+   {
+    "topic": "cancellation",
+    "count": 13,
+    "mean_frustration": 44.2,
+    "high_share": 0.538,
+    "unanswered_share": 0.692
+   },
+   {
+    "topic": "parking",
+    "count": 12,
+    "mean_frustration": 53.3,
+    "high_share": 0.667,
+    "unanswered_share": 0.833
+   },
+   {
+    "topic": "schedule_hours",
+    "count": 12,
+    "mean_frustration": 32.5,
+    "high_share": 0.167,
+    "unanswered_share": 0.417
+   },
+   {
+    "topic": "facilities",
+    "count": 10,
+    "mean_frustration": 27.5,
+    "high_share": 0.3,
+    "unanswered_share": 0.4
+   },
+   {
+    "topic": "staff",
+    "count": 10,
+    "mean_frustration": 15.5,
+    "high_share": 0.2,
+    "unanswered_share": 0.2
+   },
+   {
+    "topic": "classes",
+    "count": 8,
+    "mean_frustration": 27.5,
+    "high_share": 0.5,
+    "unanswered_share": 0.5
+   },
+   {
+    "topic": "billing",
+    "count": 6,
+    "mean_frustration": 24.2,
+    "high_share": 0.333,
+    "unanswered_share": 0.5
+   },
+   {
+    "topic": "cleanliness",
+    "count": 3,
+    "mean_frustration": 18.3,
+    "high_share": 0.0,
+    "unanswered_share": 0.333
+   }
+  ],
+  "mean": 29.5,
+  "high_share": 0.307,
+  "unanswered_share": 0.46
+ },
+ "locations": {
+  "as_of": "2026-10-31",
+  "half_life_days": 90,
+  "prior_reviews": 5,
+  "chain_score": 60.6,
+  "chain_aspects": {
+   "pricing": 62.5,
+   "trial": 56.9,
+   "cancellation": 45.8,
+   "billing": 40.3,
+   "schedule_hours": 65.9,
+   "classes": 74.7,
+   "facilities": 68.3,
+   "cleanliness": 55.4,
+   "crowding": 32.5,
+   "staff": 68.9,
+   "parking": 47.8
+  },
+  "locations": [
+   {
+    "location": "Eastfield",
+    "reviews": 64,
+    "scored_reviews": 60,
+    "effective_reviews": 23.6,
+    "score": 56.6,
+    "raw_recent": 55.8,
+    "raw_all_time": 56.4,
+    "stars_mean": 3.4,
+    "stars_100": 60.0,
+    "stars_minus_text": 4.2,
+    "stars_disagree": false,
+    "odd_reviews": 7,
+    "aspects": {
+     "pricing": {
+      "mentions": 6,
+      "raw": 70.1,
+      "score": 63.9,
+      "thin": false
+     },
+     "trial": {
+      "mentions": 8,
+      "raw": 69.5,
+      "score": 62.1,
+      "thin": false
+     },
+     "cancellation": {
+      "mentions": 5,
+      "raw": 31.2,
+      "score": 41.9,
+      "thin": false
+     },
+     "billing": {
+      "mentions": 3,
+      "raw": 40.4,
+      "score": 40.4,
+      "thin": true
+     },
+     "schedule_hours": {
+      "mentions": 4,
+      "raw": 21.1,
+      "score": 55.8,
+      "thin": true
+     },
+     "classes": {
+      "mentions": 15,
+      "raw": 82.6,
+      "score": 78.8,
+      "thin": false
+     },
+     "facilities": {
+      "mentions": 17,
+      "raw": 50.0,
+      "score": 57.5,
+      "thin": false
+     },
+     "cleanliness": {
+      "mentions": 10,
+      "raw": 29.1,
+      "score": 44.7,
+      "thin": false
+     },
+     "crowding": {
+      "mentions": 9,
+      "raw": 38.7,
+      "score": 35.1,
+      "thin": false
+     },
+     "staff": {
+      "mentions": 20,
+      "raw": 60.0,
+      "score": 63.2,
+      "thin": false
+     },
+     "parking": {
+      "mentions": 6,
+      "raw": 38.1,
+      "score": 44.2,
+      "thin": false
+     }
+    }
+   },
+   {
+    "location": "Millbrook",
+    "reviews": 14,
+    "scored_reviews": 13,
+    "effective_reviews": 5.3,
+    "score": 57.9,
+    "raw_recent": 55.4,
+    "raw_all_time": 61.5,
+    "stars_mean": 2.57,
+    "stars_100": 39.1,
+    "stars_minus_text": -16.2,
+    "stars_disagree": true,
+    "odd_reviews": 2,
+    "aspects": {
+     "pricing": {
+      "mentions": 3,
+      "raw": 39.8,
+      "score": 58.6,
+      "thin": true
+     },
+     "trial": {
+      "mentions": 2,
+      "raw": 74.0,
+      "score": 58.3,
+      "thin": true
+     },
+     "cancellation": {
+      "mentions": 3,
+      "raw": 38.3,
+      "score": 45.0,
+      "thin": true
+     },
+     "facilities": {
+      "mentions": 3,
+      "raw": 62.7,
+      "score": 67.2,
+      "thin": true
+     },
+     "cleanliness": {
+      "mentions": 3,
+      "raw": 23.4,
+      "score": 46.6,
+      "thin": true
+     },
+     "crowding": {
+      "mentions": 1,
+      "raw": 100.0,
+      "score": 41.4,
+      "thin": true
+     },
+     "staff": {
+      "mentions": 4,
+      "raw": 83.1,
+      "score": 71.2,
+      "thin": true
+     },
+     "parking": {
+      "mentions": 2,
+      "raw": 64.4,
+      "score": 50.7,
+      "thin": true
+     }
+    }
+   },
+   {
+    "location": "Northgate",
+    "reviews": 72,
+    "scored_reviews": 71,
+    "effective_reviews": 30.8,
+    "score": 62.2,
+    "raw_recent": 62.5,
+    "raw_all_time": 60.1,
+    "stars_mean": 3.45,
+    "stars_100": 61.3,
+    "stars_minus_text": -1.2,
+    "stars_disagree": false,
+    "odd_reviews": 7,
+    "aspects": {
+     "pricing": {
+      "mentions": 14,
+      "raw": 58.4,
+      "score": 60.4,
+      "thin": false
+     },
+     "trial": {
+      "mentions": 4,
+      "raw": 38.4,
+      "score": 50.6,
+      "thin": true
+     },
+     "cancellation": {
+      "mentions": 4,
+      "raw": 34.9,
+      "score": 42.8,
+      "thin": true
+     },
+     "billing": {
+      "mentions": 5,
+      "raw": 55.2,
+      "score": 44.3,
+      "thin": false
+     },
+     "schedule_hours": {
+      "mentions": 3,
+      "raw": 79.1,
+      "score": 68.2,
+      "thin": true
+     },
+     "classes": {
+      "mentions": 15,
+      "raw": 63.2,
+      "score": 67.8,
+      "thin": false
+     },
+     "facilities": {
+      "mentions": 17,
+      "raw": 64.5,
+      "score": 65.8,
+      "thin": false
+     },
+     "cleanliness": {
+      "mentions": 13,
+      "raw": 80.9,
+      "score": 69.2,
+      "thin": false
+     },
+     "crowding": {
+      "mentions": 20,
+      "raw": 32.6,
+      "score": 32.6,
+      "thin": false
+     },
+     "staff": {
+      "mentions": 26,
+      "raw": 84.5,
+      "score": 79.7,
+      "thin": false
+     },
+     "parking": {
+      "mentions": 11,
+      "raw": 56.5,
+      "score": 52.1,
+      "thin": false
+     }
+    }
+   },
+   {
+    "location": "Quayside",
+    "reviews": 50,
+    "scored_reviews": 50,
+    "effective_reviews": 20.2,
+    "score": 64.0,
+    "raw_recent": 64.9,
+    "raw_all_time": 60.5,
+    "stars_mean": 4.01,
+    "stars_100": 75.3,
+    "stars_minus_text": 10.4,
+    "stars_disagree": false,
+    "odd_reviews": 6,
+    "aspects": {
+     "pricing": {
+      "mentions": 5,
+      "raw": 78.5,
+      "score": 67.5,
+      "thin": false
+     },
+     "trial": {
+      "mentions": 2,
+      "raw": 50.0,
+      "score": 56.2,
+      "thin": true
+     },
+     "cancellation": {
+      "mentions": 5,
+      "raw": 64.2,
+      "score": 52.3,
+      "thin": false
+     },
+     "billing": {
+      "mentions": 5,
+      "raw": 27.6,
+      "score": 36.5,
+      "thin": false
+     },
+     "schedule_hours": {
+      "mentions": 3,
+      "raw": 100.0,
+      "score": 73.9,
+      "thin": true
+     },
+     "classes": {
+      "mentions": 15,
+      "raw": 84.2,
+      "score": 79.2,
+      "thin": false
+     },
+     "facilities": {
+      "mentions": 18,
+      "raw": 90.2,
+      "score": 81.7,
+      "thin": false
+     },
+     "cleanliness": {
+      "mentions": 7,
+      "raw": 57.3,
+      "score": 55.9,
+      "thin": false
+     },
+     "crowding": {
+      "mentions": 8,
+      "raw": 12.0,
+      "score": 23.8,
+      "thin": false
+     },
+     "staff": {
+      "mentions": 11,
+      "raw": 43.0,
+      "score": 56.9,
+      "thin": false
+     },
+     "parking": {
+      "mentions": 10,
+      "raw": 40.2,
+      "score": 44.4,
+      "thin": false
+     }
+    }
+   }
+  ]
+ },
+ "question_bank": [
+  {
+   "id": "pricing_monthly",
+   "topic": "pricing",
+   "question": "How much is a membership?",
+   "count": 14,
+   "unanswered_share": 0.286,
+   "mean_frustration": 16.8,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "trial_free",
+   "topic": "trial",
+   "question": "Is there a free trial?",
+   "count": 13,
+   "unanswered_share": 0.192,
+   "mean_frustration": 17.3,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "crowding_quiet",
+   "topic": "crowding",
+   "question": "When is the gym quiet?",
+   "count": 11,
+   "unanswered_share": 0.682,
+   "mean_frustration": 38.2,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "parking_cost",
+   "topic": "parking",
+   "question": "Is parking free?",
+   "count": 10,
+   "unanswered_share": 0.9,
+   "mean_frustration": 57.0,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "other_guest",
+   "topic": "other",
+   "question": "Can I bring a guest?",
+   "count": 8,
+   "unanswered_share": 0.812,
+   "mean_frustration": 35.6,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "cancel_notice",
+   "topic": "cancellation",
+   "question": "How much notice do I need to give to cancel?",
+   "count": 7,
+   "unanswered_share": 0.714,
+   "mean_frustration": 45.0,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "staff_pt",
+   "topic": "staff",
+   "question": "Do you offer personal training?",
+   "count": 7,
+   "unanswered_share": 0.143,
+   "mean_frustration": 15.0,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "facilities_childcare",
+   "topic": "facilities",
+   "question": "Is there childcare?",
+   "count": 6,
+   "unanswered_share": 0.667,
+   "mean_frustration": 41.7,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "hours_holiday",
+   "topic": "schedule_hours",
+   "question": "What are the holiday opening hours?",
+   "count": 6,
+   "unanswered_share": 0.917,
+   "mean_frustration": 52.5,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "hours_opening",
+   "topic": "schedule_hours",
+   "question": "What are the opening hours?",
+   "count": 6,
+   "unanswered_share": 0.0,
+   "mean_frustration": 12.5,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "pricing_joining_fee",
+   "topic": "pricing",
+   "question": "Is there a joining fee?",
+   "count": 6,
+   "unanswered_share": 0.667,
+   "mean_frustration": 37.5,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "pricing_student",
+   "topic": "pricing",
+   "question": "Is there a student discount?",
+   "count": 6,
+   "unanswered_share": 0.917,
+   "mean_frustration": 60.8,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "other_general",
+   "topic": "other",
+   "question": "Questions that fit no group",
+   "count": 5,
+   "unanswered_share": 0.2,
+   "mean_frustration": 5.0,
+   "on_site": false,
+   "general_bucket": true
+  },
+  {
+   "id": "pricing_family",
+   "topic": "pricing",
+   "question": "How much is the family plan?",
+   "count": 4,
+   "unanswered_share": 0.0,
+   "mean_frustration": 5.0,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "trial_book",
+   "topic": "trial",
+   "question": "How do I book a trial?",
+   "count": 4,
+   "unanswered_share": 0.125,
+   "mean_frustration": 2.5,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "billing_date",
+   "topic": "billing",
+   "question": "When is payment taken, and can I change the date?",
+   "count": 3,
+   "unanswered_share": 0.333,
+   "mean_frustration": 23.3,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "cancel_freeze",
+   "topic": "cancellation",
+   "question": "Can I freeze my membership?",
+   "count": 3,
+   "unanswered_share": 0.667,
+   "mean_frustration": 38.3,
+   "on_site": false,
+   "general_bucket": false
+  },
+  {
+   "id": "cancel_how",
+   "topic": "cancellation",
+   "question": "How do I cancel?",
+   "count": 3,
+   "unanswered_share": 0.667,
+   "mean_frustration": 48.3,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "classes_timetable",
+   "topic": "classes",
+   "question": "What classes are on, and when?",
+   "count": 3,
+   "unanswered_share": 0.667,
+   "mean_frustration": 40.0,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "classes_beginner",
+   "topic": "classes",
+   "question": "Are there classes for beginners?",
+   "count": 2,
+   "unanswered_share": 0.0,
+   "mean_frustration": 0.0,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "classes_general",
+   "topic": "classes",
+   "question": "Other classes questions",
+   "count": 2,
+   "unanswered_share": 0.5,
+   "mean_frustration": 25.0,
+   "on_site": false,
+   "general_bucket": true
+  },
+  {
+   "id": "facilities_lockers",
+   "topic": "facilities",
+   "question": "Are there lockers, showers and towels?",
+   "count": 2,
+   "unanswered_share": 0.5,
+   "mean_frustration": 12.5,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "facilities_pool",
+   "topic": "facilities",
+   "question": "Is there a pool or sauna?",
+   "count": 2,
+   "unanswered_share": 0.0,
+   "mean_frustration": 0.0,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "parking_available",
+   "topic": "parking",
+   "question": "Is there parking?",
+   "count": 2,
+   "unanswered_share": 0.5,
+   "mean_frustration": 35.0,
+   "on_site": true,
+   "general_bucket": false
+  },
+  {
+   "id": "staff_general",
+   "topic": "staff",
+   "question": "Other staff questions",
+   "count": 2,
+   "unanswered_share": 0.5,
+   "mean_frustration": 25.0,
+   "on_site": false,
+   "general_bucket": true
+  },
+  {
+   "id": "classes_book",
+   "topic": "classes",
+   "question": "How do I book a class?",
+   "count": 1,
+   "unanswered_share": 1.0,
+   "mean_frustration": 50.0,
+   "on_site": true,
+   "general_bucket": false
+  }
+ ],
+ "content_gaps": [
+  {
+   "id": "parking_cost",
+   "topic": "parking",
+   "question": "Is parking free?",
+   "count": 10,
+   "unanswered_share": 0.9,
+   "mean_frustration": 57.0,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 14.1
+  },
+  {
+   "id": "crowding_quiet",
+   "topic": "crowding",
+   "question": "When is the gym quiet?",
+   "count": 11,
+   "unanswered_share": 0.682,
+   "mean_frustration": 38.2,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 10.4
+  },
+  {
+   "id": "other_guest",
+   "topic": "other",
+   "question": "Can I bring a guest?",
+   "count": 8,
+   "unanswered_share": 0.812,
+   "mean_frustration": 35.6,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 8.8
+  },
+  {
+   "id": "pricing_student",
+   "topic": "pricing",
+   "question": "Is there a student discount?",
+   "count": 6,
+   "unanswered_share": 0.917,
+   "mean_frustration": 60.8,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 8.8
+  },
+  {
+   "id": "hours_holiday",
+   "topic": "schedule_hours",
+   "question": "What are the holiday opening hours?",
+   "count": 6,
+   "unanswered_share": 0.917,
+   "mean_frustration": 52.5,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 8.4
+  },
+  {
+   "id": "cancel_notice",
+   "topic": "cancellation",
+   "question": "How much notice do I need to give to cancel?",
+   "count": 7,
+   "unanswered_share": 0.714,
+   "mean_frustration": 45.0,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 7.2
+  },
+  {
+   "id": "facilities_childcare",
+   "topic": "facilities",
+   "question": "Is there childcare?",
+   "count": 6,
+   "unanswered_share": 0.667,
+   "mean_frustration": 41.7,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 5.7
+  },
+  {
+   "id": "cancel_freeze",
+   "topic": "cancellation",
+   "question": "Can I freeze my membership?",
+   "count": 3,
+   "unanswered_share": 0.667,
+   "mean_frustration": 38.3,
+   "on_site": false,
+   "general_bucket": false,
+   "priority": 2.8
+  }
+ ],
+ "agreement": {
+  "tagger": "keyword",
+  "model": null,
+  "tagged_chats": 150,
+  "tagged_reviews": 200,
+  "invalid": 0,
+  "per_field": {
+   "chat_topic": {
+    "match": 136,
+    "total": 150,
+    "rate": 0.907
+   },
+   "chat_intent": {
+    "match": 143,
+    "total": 150,
+    "rate": 0.953
+   },
+   "chat_answered": {
+    "match": 114,
+    "total": 150,
+    "rate": 0.76
+   },
+   "chat_signals_exact": {
+    "match": 101,
+    "total": 150,
+    "rate": 0.673
+   },
+   "chat_frustration_band": {
+    "match": 94,
+    "total": 150,
+    "rate": 0.627
+   },
+   "chat_question": {
+    "match": 126,
+    "total": 137,
+    "rate": 0.92
+   },
+   "review_aspects_found": {
+    "match": 343,
+    "total": 376,
+    "rate": 0.912
+   },
+   "review_aspects_extra": {
+    "match": 343,
+    "total": 345,
+    "rate": 0.994
+   },
+   "review_sentiment": {
+    "match": 230,
+    "total": 343,
+    "rate": 0.671
+   },
+   "review_exact": {
+    "match": 93,
+    "total": 200,
+    "rate": 0.465
+   }
+  },
+  "signals": {
+   "repeated_question": {
+    "tp": 51,
+    "fp": 2,
+    "fn": 8,
+    "precision": 0.962,
+    "recall": 0.864
+   },
+   "bot_misunderstood": {
+    "tp": 24,
+    "fp": 0,
+    "fn": 23,
+    "precision": 1.0,
+    "recall": 0.511
+   },
+   "asked_for_human": {
+    "tp": 18,
+    "fp": 0,
+    "fn": 7,
+    "precision": 1.0,
+    "recall": 0.72
+   },
+   "negative_language": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 8,
+    "precision": 1.0,
+    "recall": 0.652
+   },
+   "gave_up": {
+    "tp": 13,
+    "fp": 4,
+    "fn": 11,
+    "precision": 0.765,
+    "recall": 0.542
+   }
+  }
+ },
+ "reference": {
+  "mean_frustration": {
+   "tagger": 29.5,
+   "intended": 32.6
+  },
+  "unanswered_share": {
+   "tagger": 0.46,
+   "intended": 0.273
+  },
+  "chain_score": {
+   "tagger": 60.6,
+   "intended": 55.7
+  },
+  "location_scores": [
+   {
+    "location": "Eastfield",
+    "tagger": 56.6,
+    "intended": 53.3,
+    "stars_disagree_tagger": false,
+    "stars_disagree_intended": false
+   },
+   {
+    "location": "Millbrook",
+    "tagger": 57.9,
+    "intended": 51.7,
+    "stars_disagree_tagger": true,
+    "stars_disagree_intended": false
+   },
+   {
+    "location": "Northgate",
+    "tagger": 62.2,
+    "intended": 58.8,
+    "stars_disagree_tagger": false,
+    "stars_disagree_intended": false
+   },
+   {
+    "location": "Quayside",
+    "tagger": 64.0,
+    "intended": 56.0,
+    "stars_disagree_tagger": false,
+    "stars_disagree_intended": true
+   }
+  ],
+  "top_gaps": {
+   "n": 5,
+   "tagger": [
+    "parking_cost",
+    "crowding_quiet",
+    "other_guest",
+    "pricing_student",
+    "hours_holiday"
+   ],
+   "intended": [
+    "parking_cost",
+    "crowding_quiet",
+    "other_guest",
+    "hours_holiday",
+    "pricing_student"
+   ],
+   "shared": 5
+  }
+ }
+}

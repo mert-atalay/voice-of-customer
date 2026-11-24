@@ -1,0 +1,2578 @@
+[
+ {
+  "id": "r001",
+  "location": "Eastfield",
+  "date": "2026-06-25",
+  "stars": 3,
+  "text": "I go three times a week. The changing room floor could do with meeting a mop. However front desk team are always helpful. Could be better.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r002",
+  "location": "Quayside",
+  "date": "2026-03-21",
+  "stars": 5,
+  "text": "Switched from another gym. Yoga classes are well run. Also everything gets wiped down regularly.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r003",
+  "location": "Northgate",
+  "date": "2026-04-21",
+  "stars": 3,
+  "text": "First gym I have stuck with. The trainers actually know what they are doing. However love waiting twenty minutes for a squat rack.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r004",
+  "location": "Millbrook",
+  "date": "2026-09-22",
+  "stars": 1,
+  "text": "I go three times a week. The changing rooms are dirty. Also parking is on the street behind the building.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "parking": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r005",
+  "location": "Eastfield",
+  "date": "2026-03-02",
+  "stars": 1,
+  "text": "Member since last winter. The free trial came with a hard sell. Cleaners come round in the afternoon.",
+  "intended": {
+   "aspects": {
+    "trial": "negative",
+    "cleanliness": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r006",
+  "location": "Eastfield",
+  "date": "2026-10-05",
+  "stars": 3,
+  "text": "Parking is fun if you like circling for half an hour. On the other hand front desk team are always helpful.",
+  "intended": {
+   "aspects": {
+    "parking": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r007",
+  "location": "Quayside",
+  "date": "2026-08-14",
+  "stars": 5,
+  "text": "The membership is cheap for what you get and the classes are excellent. On the other hand I now go at 5am just to get a bench.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "classes": "positive",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r008",
+  "location": "Northgate",
+  "date": "2026-10-17",
+  "stars": 2,
+  "text": "The sauna works about as often as a solar eclipse.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative"
+   }
+  }
+ },
+ {
+  "id": "r009",
+  "location": "Eastfield",
+  "date": "2026-04-12",
+  "stars": 5,
+  "text": "Way too crowded in the evenings. However the membership is cheap for what you get. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "pricing": "positive"
+   }
+  }
+ },
+ {
+  "id": "r010",
+  "location": "Eastfield",
+  "date": "2026-04-25",
+  "stars": 3,
+  "text": "I joined after the three-day trial. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "trial": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r011",
+  "location": "Eastfield",
+  "date": "2026-05-18",
+  "stars": 2,
+  "text": "Switched from another gym. The sauna works about as often as a solar eclipse and staff are there if you need them.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "staff": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r012",
+  "location": "Northgate",
+  "date": "2026-06-02",
+  "stars": 1,
+  "text": "I go three times a week. It is packed after work.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r013",
+  "location": "Quayside",
+  "date": "2026-10-21",
+  "stars": 4,
+  "text": "Great range of machines and free weights.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r014",
+  "location": "Quayside",
+  "date": "2026-02-22",
+  "stars": 5,
+  "text": "Yoga classes are well run.",
+  "intended": {
+   "aspects": {
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r015",
+  "location": "Quayside",
+  "date": "2026-02-05",
+  "stars": 3,
+  "text": "Way too crowded in the evenings.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r016",
+  "location": "Quayside",
+  "date": "2026-09-11",
+  "stars": 2,
+  "text": "Been a member for about a year. They would not let me cancel without a month of notice nobody mentioned. Not renewing.",
+  "intended": {
+   "aspects": {
+    "cancellation": "negative"
+   }
+  }
+ },
+ {
+  "id": "r017",
+  "location": "Northgate",
+  "date": "2026-08-19",
+  "stars": 3,
+  "text": "The sauna has been out of order for weeks, though front desk team are always helpful. However amazing how the price finds a way to go up every few months.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "staff": "positive",
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r018",
+  "location": "Northgate",
+  "date": "2026-05-20",
+  "stars": 2,
+  "text": "Way too crowded in the evenings. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r019",
+  "location": "Quayside",
+  "date": "2026-06-03",
+  "stars": 2,
+  "text": "Too expensive for what it is",
+  "intended": {
+   "aspects": {
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r020",
+  "location": "Eastfield",
+  "date": "2026-04-27",
+  "stars": 1,
+  "text": "Nothing is too much trouble for the front desk.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r021",
+  "location": "Quayside",
+  "date": "2026-09-29",
+  "stars": 4,
+  "text": "Been a member for about a year. Parking is a nightmare. On the other hand great range of machines and free weights but staff seem bored and unfriendly.",
+  "intended": {
+   "aspects": {
+    "parking": "negative",
+    "facilities": "positive",
+    "staff": "negative"
+   }
+  }
+ },
+ {
+  "id": "r022",
+  "location": "Northgate",
+  "date": "2026-08-27",
+  "stars": 1,
+  "text": "The trial was not really free. You have to queue for everything. Lockers are broken and too small.",
+  "intended": {
+   "aspects": {
+    "trial": "negative",
+    "crowding": "negative",
+    "facilities": "negative"
+   }
+  }
+ },
+ {
+  "id": "r023",
+  "location": "Quayside",
+  "date": "2026-05-17",
+  "stars": 5,
+  "text": "Switched from another gym. The equipment is new and well kept and cleanest gym I have used.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r024",
+  "location": "Northgate",
+  "date": "2026-02-08",
+  "stars": 3,
+  "text": "Amazing how the price finds a way to go up every few months. Also front desk is staffed most of the day.",
+  "intended": {
+   "aspects": {
+    "pricing": "negative",
+    "staff": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r025",
+  "location": "Quayside",
+  "date": "2026-02-05",
+  "stars": 2,
+  "text": "Switched from another gym. Classes are always fully booked.",
+  "intended": {
+   "aspects": {
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r026",
+  "location": "Quayside",
+  "date": "2026-06-11",
+  "stars": 5,
+  "text": "Member since last winter. Opening hours are great, open early and late. Also great range of machines and free weights. However parking is a nightmare.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "positive",
+    "facilities": "positive",
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r027",
+  "location": "Northgate",
+  "date": "2026-09-11",
+  "stars": 4,
+  "text": "Member since last winter. The staff are friendly and remember you and it is quiet in the mornings which I like. Love that it opens at 6am.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "crowding": "positive",
+    "schedule_hours": "positive"
+   }
+  }
+ },
+ {
+  "id": "r028",
+  "location": "Quayside",
+  "date": "2026-04-03",
+  "stars": 2,
+  "text": "The car park is always full. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r029",
+  "location": "Northgate",
+  "date": "2026-04-23",
+  "stars": 5,
+  "text": "Everything gets wiped down regularly. Parking is on the street behind the building.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "parking": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r030",
+  "location": "Eastfield",
+  "date": "2026-02-23",
+  "stars": 3,
+  "text": "Staff were welcoming from day one, though the toilets were disgusting on my last visit.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r031",
+  "location": "Eastfield",
+  "date": "2026-10-16",
+  "stars": 5,
+  "text": "Plenty of space even at peak time. However the sauna has been out of order for weeks. Mixed feelings.",
+  "intended": {
+   "aspects": {
+    "crowding": "positive",
+    "facilities": "negative"
+   }
+  }
+ },
+ {
+  "id": "r032",
+  "location": "Northgate",
+  "date": "2026-02-27",
+  "stars": 5,
+  "text": "Switched from another gym. Opening hours are great, open early and late.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "positive"
+   }
+  }
+ },
+ {
+  "id": "r033",
+  "location": "Quayside",
+  "date": "2026-06-19",
+  "stars": 5,
+  "text": "Spin class is the best part of my week. Loads of kit, never short of dumbbells. On the other hand sweat left on the benches and nobody cleans it. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "facilities": "positive",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r034",
+  "location": "Eastfield",
+  "date": "2026-03-26",
+  "stars": 1,
+  "text": "It closes too early at weekends. Looking elsewhere.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "negative"
+   }
+  }
+ },
+ {
+  "id": "r035",
+  "location": "Eastfield",
+  "date": "2026-03-17",
+  "stars": 2,
+  "text": "Cleanest gym I have used. On the other hand they would not let me cancel without a month of notice nobody mentioned.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "cancellation": "negative"
+   }
+  }
+ },
+ {
+  "id": "r036",
+  "location": "Northgate",
+  "date": "2026-08-30",
+  "stars": 3,
+  "text": "They refunded a wrong charge quickly, though bins overflowing in the changing room and way too crowded in the evenings. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "billing": "positive",
+    "cleanliness": "negative",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r037",
+  "location": "Quayside",
+  "date": "2026-08-26",
+  "stars": 5,
+  "text": "They let me freeze my membership without any hassle.",
+  "intended": {
+   "aspects": {
+    "cancellation": "positive"
+   }
+  }
+ },
+ {
+  "id": "r038",
+  "location": "Northgate",
+  "date": "2026-04-01",
+  "stars": 2,
+  "text": "The car park is always full.",
+  "intended": {
+   "aspects": {
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r039",
+  "location": "Northgate",
+  "date": "2026-03-08",
+  "stars": 5,
+  "text": "Member since last winter. The trainers actually know what they are doing.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r040",
+  "location": "Eastfield",
+  "date": "2026-02-12",
+  "stars": 2,
+  "text": "Sweat left on the benches and nobody cleans it but plenty of space even at peak time. Could be better.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r041",
+  "location": "Eastfield",
+  "date": "2026-10-22",
+  "stars": 2,
+  "text": "Joined in the spring. So busy at 6pm that I gave up and left. I joined after the three-day trial.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "trial": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r042",
+  "location": "Eastfield",
+  "date": "2026-02-21",
+  "stars": 5,
+  "text": "The class timetable has something every evening. Never too busy when I go. Happy here.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r043",
+  "location": "Eastfield",
+  "date": "2026-04-05",
+  "stars": 4,
+  "text": "Busier in January like everywhere. Also the free trial made it easy to decide. Happy here.",
+  "intended": {
+   "aspects": {
+    "crowding": "neutral",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r044",
+  "location": "Northgate",
+  "date": "2026-09-08",
+  "stars": 5,
+  "text": "Spin class is the best part of my week. Also great range of machnies and free weights. Would recommend.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r045",
+  "location": "Northgate",
+  "date": "2026-10-04",
+  "stars": 5,
+  "text": "The equipment is new and well kept. However the front desk staff are rude.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "staff": "negative"
+   }
+  }
+ },
+ {
+  "id": "r046",
+  "location": "Eastfield",
+  "date": "2026-08-08",
+  "stars": 5,
+  "text": "loads of kit, never short of dumbbells and staff were welcoming from day one. they cancelled my membership the same day i asked",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "staff": "positive",
+    "cancellation": "positive"
+   }
+  }
+ },
+ {
+  "id": "r047",
+  "location": "Quayside",
+  "date": "2026-06-10",
+  "stars": 4,
+  "text": "Spin class is the best part of my week. However staff spend more time on their phones than helping. Also it is packed after work. Could be better.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "staff": "negative",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r048",
+  "location": "Eastfield",
+  "date": "2026-02-07",
+  "stars": 4,
+  "text": "Parking is a nightmare. On the other hand great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "parking": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r049",
+  "location": "Eastfield",
+  "date": "2026-02-21",
+  "stars": 3,
+  "text": "The toilets were disgusting on my last visit but I rarely have to wait for anything.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r050",
+  "location": "Eastfield",
+  "date": "2026-06-17",
+  "stars": 3,
+  "text": "Been a member for about a year. Great coaches, really patient with beginners. However bins overflowing in the changing room.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r051",
+  "location": "Northgate",
+  "date": "2026-09-07",
+  "stars": 5,
+  "text": "They let me freeze my membership without any hassle. Also great coaches, really patient with beginners. Would recommend.",
+  "intended": {
+   "aspects": {
+    "cancellation": "positive",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r052",
+  "location": "Eastfield",
+  "date": "2026-09-08",
+  "stars": 3,
+  "text": "I go three times a week. Front desk is staffed most of the day. Also it gets busy at the usual times.",
+  "intended": {
+   "aspects": {
+    "staff": "neutral",
+    "crowding": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r053",
+  "location": "Millbrook",
+  "date": "2026-06-10",
+  "stars": 3,
+  "text": "Been a member for about a year. It took three attempts to cancel my membership. However the trainers actually know what they are doing.",
+  "intended": {
+   "aspects": {
+    "cancellation": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r054",
+  "location": "Eastfield",
+  "date": "2026-04-07",
+  "stars": 2,
+  "text": "Cleanliness is about what you would expect.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r055",
+  "location": "Eastfield",
+  "date": "2026-03-11",
+  "stars": 2,
+  "text": "The sauna works about as often as a solar eclipse, though great variety of classes and good instructors. On the other hand billing mistakes every few months.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "classes": "positive",
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r056",
+  "location": "Northgate",
+  "date": "2026-07-09",
+  "stars": 1,
+  "text": "The changing room floor could do with meeting a mop.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r057",
+  "location": "Northgate",
+  "date": "2026-09-09",
+  "stars": 5,
+  "text": "Loads of kit, never short of dumbbells. No queues, ever and very clean and it smells fresh.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "crowding": "positive",
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r058",
+  "location": "Quayside",
+  "date": "2026-02-01",
+  "stars": 2,
+  "text": "Parking is a nightmare. Looking elsewhere.",
+  "intended": {
+   "aspects": {
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r059",
+  "location": "Eastfield",
+  "date": "2026-07-26",
+  "stars": 5,
+  "text": "Did the trial and signed up the same week.",
+  "intended": {
+   "aspects": {
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r060",
+  "location": "Eastfield",
+  "date": "2026-08-05",
+  "stars": 2,
+  "text": "The changing rooms are dirty. Not renewing.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r061",
+  "location": "Northgate",
+  "date": "2026-08-08",
+  "stars": 4,
+  "text": "switcehd from another gym. so busy at 6pm that i gave up and left, though great coaches, really patient with beginners. could be better.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r062",
+  "location": "Northgate",
+  "date": "2026-03-18",
+  "stars": 1,
+  "text": "Not a speck of dust anywhere but the sauna works about as often as a solar eclipse.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "facilities": "negative"
+   }
+  }
+ },
+ {
+  "id": "r063",
+  "location": "Millbrook",
+  "date": "2026-06-21",
+  "stars": 4,
+  "text": "Member since last winter. Fair price and no hidden fees.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive"
+   }
+  }
+ },
+ {
+  "id": "r064",
+  "location": "Northgate",
+  "date": "2026-05-29",
+  "stars": 2,
+  "text": "Showers are cold more often than not and the changing area is filthy and it smells. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r065",
+  "location": "Eastfield",
+  "date": "2026-04-23",
+  "stars": 3,
+  "text": "The class timetable keeps changing, though the pool and sauna are a real bonus.",
+  "intended": {
+   "aspects": {
+    "classes": "negative",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r066",
+  "location": "Quayside",
+  "date": "2026-10-22",
+  "stars": 5,
+  "text": "The equipment is new and well kept.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r067",
+  "location": "Eastfield",
+  "date": "2026-03-24",
+  "stars": 4,
+  "text": "Not a speck of dust anywehre and loads of kit, never short of dumbbells. Would recommend.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r068",
+  "location": "Northgate",
+  "date": "2026-06-20",
+  "stars": 5,
+  "text": "Staff were welcoming from day one. Also good value for the price. Happy here.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "pricing": "positive"
+   }
+  }
+ },
+ {
+  "id": "r069",
+  "location": "Eastfield",
+  "date": "2026-02-24",
+  "stars": 3,
+  "text": "Too expensive for what it is but they cancelled my membership the same day I asked.",
+  "intended": {
+   "aspects": {
+    "pricing": "negative",
+    "cancellation": "positive"
+   }
+  }
+ },
+ {
+  "id": "r070",
+  "location": "Eastfield",
+  "date": "2026-02-28",
+  "stars": 1,
+  "text": "The spin class would be lovely if it ever ran and the holiday opening hours were useless.",
+  "intended": {
+   "aspects": {
+    "classes": "negative",
+    "schedule_hours": "negative"
+   }
+  }
+ },
+ {
+  "id": "r071",
+  "location": "Eastfield",
+  "date": "2026-08-03",
+  "stars": 5,
+  "text": "The staff are friendly and remember you and they cancelled my membership the same day I asked.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "cancellation": "positive"
+   }
+  }
+ },
+ {
+  "id": "r072",
+  "location": "Eastfield",
+  "date": "2026-08-13",
+  "stars": 5,
+  "text": "Been a member for about a year. The class timetable has something every evening and great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r073",
+  "location": "Quayside",
+  "date": "2026-10-18",
+  "stars": 4,
+  "text": "member since last winter. so busy at 6pm that i gave up and left. on the other hand the staff are friednly and remember you. mixed feelings.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r074",
+  "location": "Quayside",
+  "date": "2026-06-24",
+  "stars": 5,
+  "text": "I always find a parking space, though the toilets were disgusting on my last visit. Cancelling is made as hard as possible.",
+  "intended": {
+   "aspects": {
+    "parking": "positive",
+    "cleanliness": "negative",
+    "cancellation": "negative"
+   }
+  }
+ },
+ {
+  "id": "r075",
+  "location": "Northgate",
+  "date": "2026-10-27",
+  "stars": 2,
+  "text": "I go three times a week. Great if you enjoy other people's sweat on the benches. However the equipment is new and well kept.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r076",
+  "location": "Eastfield",
+  "date": "2026-08-10",
+  "stars": 1,
+  "text": "I go three times a week. Good luck finding a free treadmill after work",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r077",
+  "location": "Northgate",
+  "date": "2026-09-23",
+  "stars": 2,
+  "text": "first gym i have stuck with. it is packed after work and classes are always fully booked. on the other hand plenty of bike racks and parking.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "classes": "negative",
+    "parking": "positive"
+   }
+  }
+ },
+ {
+  "id": "r078",
+  "location": "Northgate",
+  "date": "2026-05-19",
+  "stars": 4,
+  "text": "Half the machines are broken but they cancelled my membership the same day I asked. Could be better",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "cancellation": "positive"
+   }
+  }
+ },
+ {
+  "id": "r079",
+  "location": "Eastfield",
+  "date": "2026-07-09",
+  "stars": 2,
+  "text": "the sauna has been out of order for weeks. sweat left on the benches and nobody cleans it.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r080",
+  "location": "Northgate",
+  "date": "2026-09-08",
+  "stars": 2,
+  "text": "The spin class would be lovely if it ever ran and way too crowded in the evenings.",
+  "intended": {
+   "aspects": {
+    "classes": "negative",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r081",
+  "location": "Quayside",
+  "date": "2026-06-30",
+  "stars": 5,
+  "text": "Opening hours are great, open early and late. The trainers actually know what they are doing.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "positive",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r082",
+  "location": "Northgate",
+  "date": "2026-05-18",
+  "stars": 3,
+  "text": "Bins overflowing in the changing room. Also amazing how the price finds a way to go up every few months but big car park right outside.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "pricing": "negative",
+    "parking": "positive"
+   }
+  }
+ },
+ {
+  "id": "r083",
+  "location": "Eastfield",
+  "date": "2026-06-05",
+  "stars": 1,
+  "text": "great range of machines and free weights. also the clsases are excellent. glad i joined.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r084",
+  "location": "Eastfield",
+  "date": "2026-08-01",
+  "stars": 5,
+  "text": "Been a member for about a year. Billing has always been correct. Staff are there if you need them.",
+  "intended": {
+   "aspects": {
+    "billing": "positive",
+    "staff": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r085",
+  "location": "Quayside",
+  "date": "2026-07-17",
+  "stars": 5,
+  "text": "Great range of machines and free weights",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r086",
+  "location": "Northgate",
+  "date": "2026-04-05",
+  "stars": 3,
+  "text": "Switched from another gym. I joined after the three-day trial. Also there is a small car park. It is overpriced. Could be better.",
+  "intended": {
+   "aspects": {
+    "trial": "neutral",
+    "parking": "neutral",
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r087",
+  "location": "Northgate",
+  "date": "2026-10-28",
+  "stars": 5,
+  "text": "Switched from another gym. Changing rooms are always clean and worth the mnothly fee. Would recommend.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "pricing": "positive"
+   }
+  }
+ },
+ {
+  "id": "r088",
+  "location": "Quayside",
+  "date": "2026-05-25",
+  "stars": 2,
+  "text": "Billing mistakes every few months.",
+  "intended": {
+   "aspects": {
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r089",
+  "location": "Millbrook",
+  "date": "2026-07-01",
+  "stars": 2,
+  "text": "The sauna works about as often as a solar eclipse. The toilets were disgusting on my last visit. On the other hand front desk team are always helpful. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "cleanliness": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r090",
+  "location": "Eastfield",
+  "date": "2026-06-17",
+  "stars": 1,
+  "text": "Sweat left on the benches and nobody cleans it.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r091",
+  "location": "Quayside",
+  "date": "2026-06-24",
+  "stars": 5,
+  "text": "Switched from another gym. Front desk team are always helpful but the changing area is filthy and it smells. On the other hand the class timetable has something every evening",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "cleanliness": "negative",
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r092",
+  "location": "Northgate",
+  "date": "2026-05-31",
+  "stars": 5,
+  "text": "Cleanest gym I have used.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r093",
+  "location": "Eastfield",
+  "date": "2026-10-17",
+  "stars": 2,
+  "text": "The holiday opening hours were useless.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "negative"
+   }
+  }
+ },
+ {
+  "id": "r094",
+  "location": "Millbrook",
+  "date": "2026-05-27",
+  "stars": 1,
+  "text": "showers are cold more often than not and parking is fun if you like circling for half an hour. looking elsewhere.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r095",
+  "location": "Northgate",
+  "date": "2026-03-07",
+  "stars": 1,
+  "text": "The spin class would be lovely if it ever ran. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r096",
+  "location": "Quayside",
+  "date": "2026-09-21",
+  "stars": 2,
+  "text": "First gym I have stuck with. Way too crowded in the evenings. Not renewing.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r097",
+  "location": "Northgate",
+  "date": "2026-04-21",
+  "stars": 5,
+  "text": "It is quiet in the mornings which I like.",
+  "intended": {
+   "aspects": {
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r098",
+  "location": "Northgate",
+  "date": "2026-09-06",
+  "stars": 4,
+  "text": "They cancelled my membership the same day I asked, though showers are cold more often than not. On the other hand great coaches, really patient with beginners. Mixed feelings.",
+  "intended": {
+   "aspects": {
+    "cancellation": "positive",
+    "facilities": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r099",
+  "location": "Millbrook",
+  "date": "2026-04-15",
+  "stars": 4,
+  "text": "The free trial made it easy to decide. Glad I joined.",
+  "intended": {
+   "aspects": {
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r100",
+  "location": "Northgate",
+  "date": "2026-06-01",
+  "stars": 2,
+  "text": "I now go at 5am just to get a bench and impossible to book a class unless you do it a week ahead but great range of machines and free weights.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "classes": "negative",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r101",
+  "location": "Northgate",
+  "date": "2026-04-07",
+  "stars": 3,
+  "text": "Been a member for about a year. It is packed after work but cannot fault the staff. Could be better.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r102",
+  "location": "Northgate",
+  "date": "2026-10-19",
+  "stars": 5,
+  "text": "I go three times a week. Great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r103",
+  "location": "Eastfield",
+  "date": "2026-08-18",
+  "stars": 3,
+  "text": "Everything gets wiped down regularly. Spin class is the best part of my week, though still waiting for my refund. Could be better.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "classes": "positive",
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r104",
+  "location": "Northgate",
+  "date": "2026-10-13",
+  "stars": 2,
+  "text": "It gets busy at the usual times and the spin class would be lovely if it ever ran but great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "crowding": "neutral",
+    "classes": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r105",
+  "location": "Northgate",
+  "date": "2026-07-11",
+  "stars": 5,
+  "text": "Switched from another gym. The changing rooms are dirty. On the other hand plenty of bike racks and parking. The classes are excellent.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "parking": "positive",
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r106",
+  "location": "Northgate",
+  "date": "2026-04-10",
+  "stars": 3,
+  "text": "Too many people and not enough room and parking is a nightmare. Also prices are about the same as other gyms nearby.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "parking": "negative",
+    "pricing": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r107",
+  "location": "Northgate",
+  "date": "2026-10-31",
+  "stars": 5,
+  "text": "Joined in the spring. Fair price and no hidden fees. Also did the trial and signed up the same week.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r108",
+  "location": "Millbrook",
+  "date": "2026-07-18",
+  "stars": 2,
+  "text": "Cleanest gym I have used, though too expensive for what it is. Mixed feelings.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r109",
+  "location": "Northgate",
+  "date": "2026-05-29",
+  "stars": 1,
+  "text": "Joined in the spring. Hidden fees on top of the membership price. Still waiting for my refund. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "pricing": "negative",
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r110",
+  "location": "Eastfield",
+  "date": "2026-07-11",
+  "stars": 3,
+  "text": "Half the machines are broken. However plenty of bike racks and parking but the class instructors just go through the motions.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "parking": "positive",
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r111",
+  "location": "Quayside",
+  "date": "2026-02-26",
+  "stars": 3,
+  "text": "The changing room floor could do with meeting a mop but great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r112",
+  "location": "Millbrook",
+  "date": "2026-04-25",
+  "stars": 4,
+  "text": "The membership is cheap for what you get. Did the trial and signed up the same week.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r113",
+  "location": "Northgate",
+  "date": "2026-07-08",
+  "stars": 3,
+  "text": "Joined in the spring. Not expensive at all for what you get. However you have to pay for parking on top of membership and you have to queue for everything.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "parking": "negative",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r114",
+  "location": "Northgate",
+  "date": "2026-07-20",
+  "stars": 1,
+  "text": "been a member for about a year. it is packed after work. not renewing.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r115",
+  "location": "Eastfield",
+  "date": "2026-04-14",
+  "stars": 3,
+  "text": "Been a member for about a year. Front desk is staffed most of the day. You have to queue for everything and sweat left on the benches and nobody cleans it.",
+  "intended": {
+   "aspects": {
+    "staff": "neutral",
+    "crowding": "negative",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r116",
+  "location": "Northgate",
+  "date": "2026-09-19",
+  "stars": 5,
+  "text": "Spin class is the best part of my week. Also the place is spotless.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r117",
+  "location": "Northgate",
+  "date": "2026-05-02",
+  "stars": 4,
+  "text": "the staff are friendly and remember you. happy here.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r118",
+  "location": "Eastfield",
+  "date": "2026-10-16",
+  "stars": 5,
+  "text": "Yoga classes are well run.",
+  "intended": {
+   "aspects": {
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r119",
+  "location": "Northgate",
+  "date": "2026-02-19",
+  "stars": 5,
+  "text": "the changing area is filthy and it smells. would not recommend.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r120",
+  "location": "Quayside",
+  "date": "2026-03-15",
+  "stars": 5,
+  "text": "The front desk greeting is a grunt, if you are lucky. However the class timetable has something every evening and never too busy when I go.",
+  "intended": {
+   "aspects": {
+    "staff": "negative",
+    "classes": "positive",
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r121",
+  "location": "Eastfield",
+  "date": "2026-07-13",
+  "stars": 5,
+  "text": "Front desk team are always helpful",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r122",
+  "location": "Millbrook",
+  "date": "2026-06-29",
+  "stars": 1,
+  "text": "I now go at 5am just to get a bench. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r123",
+  "location": "Quayside",
+  "date": "2026-03-10",
+  "stars": 3,
+  "text": "First gym I have stuck with. Nowhere to park after 5pm. On the other hand loads of kit, never short of dumbbells. However I was charged twice and it took weeks to fix.",
+  "intended": {
+   "aspects": {
+    "parking": "negative",
+    "facilities": "positive",
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r124",
+  "location": "Northgate",
+  "date": "2026-07-05",
+  "stars": 5,
+  "text": "Member since last winter. Never too busy when I go. Also cleanest gym I have used.",
+  "intended": {
+   "aspects": {
+    "crowding": "positive",
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r125",
+  "location": "Northgate",
+  "date": "2026-07-11",
+  "stars": 5,
+  "text": "First gym I have stuck with. Cleanest gym I have used.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r126",
+  "location": "Eastfield",
+  "date": "2026-06-21",
+  "stars": 1,
+  "text": "The class instructors just go through the motions and parking is fun if you like circling for half an hour. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "classes": "negative",
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r127",
+  "location": "Northgate",
+  "date": "2026-04-16",
+  "stars": 5,
+  "text": "Everything gets wiped down regularly.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r128",
+  "location": "Northgate",
+  "date": "2026-04-06",
+  "stars": 4,
+  "text": "Front desk team are always helpful. Cleaners come round in the afternoon.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "cleanliness": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r129",
+  "location": "Eastfield",
+  "date": "2026-05-29",
+  "stars": 2,
+  "text": "I go three times a week. The changing room floor could do with meeting a mop.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r130",
+  "location": "Millbrook",
+  "date": "2026-02-17",
+  "stars": 1,
+  "text": "Trying to freeze my membership was a pain. On the other hand great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "cancellation": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r131",
+  "location": "Millbrook",
+  "date": "2026-02-01",
+  "stars": 4,
+  "text": "It took three attempts to cancel my membership. On the other hand great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "cancellation": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r132",
+  "location": "Northgate",
+  "date": "2026-09-22",
+  "stars": 4,
+  "text": "Switched from another gym. The trainers actually know what they are doing and the classes are excellent.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r133",
+  "location": "Quayside",
+  "date": "2026-03-14",
+  "stars": 5,
+  "text": "The class timetable has something every evening and staff are there if you need them.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "staff": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r134",
+  "location": "Northgate",
+  "date": "2026-10-19",
+  "stars": 4,
+  "text": "the sauna works about as often as a solar eclipse. however i always find a parking space. classes are the usual mix",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "parking": "positive",
+    "classes": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r135",
+  "location": "Quayside",
+  "date": "2026-03-12",
+  "stars": 5,
+  "text": "The place is spotless. I rarely have to wait for anything but the class timetable keeps changing. Could be better.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "crowding": "positive",
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r136",
+  "location": "Eastfield",
+  "date": "2026-05-03",
+  "stars": 5,
+  "text": "Loads of kit, never short of dumbbells and front desk team are always helpful.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r137",
+  "location": "Northgate",
+  "date": "2026-06-23",
+  "stars": 2,
+  "text": "So busy at 6pm that I gave up and left. Looking elsewhere.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r138",
+  "location": "Quayside",
+  "date": "2026-03-25",
+  "stars": 5,
+  "text": "Very clean and it smells fresh.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r139",
+  "location": "Northgate",
+  "date": "2026-05-28",
+  "stars": 5,
+  "text": "Plenty of space even at peak time.",
+  "intended": {
+   "aspects": {
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r140",
+  "location": "Quayside",
+  "date": "2026-04-15",
+  "stars": 5,
+  "text": "Been a member for about a year. Bins overflowing in the changing room, though the classes are excellent and cannot fault the staff.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative",
+    "classes": "positive",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r141",
+  "location": "Quayside",
+  "date": "2026-10-20",
+  "stars": 5,
+  "text": "Switched from another gym. Spin class is the best part of my week but parking is fun if you like circling for half an hour.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r142",
+  "location": "Quayside",
+  "date": "2026-03-18",
+  "stars": 5,
+  "text": "Did the trial and signed up the same week. Would recommend.",
+  "intended": {
+   "aspects": {
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r143",
+  "location": "Eastfield",
+  "date": "2026-10-30",
+  "stars": 5,
+  "text": "Staff spend more time on their phones than helping. Also too many people and not enough room. Also parking is a nightmare.",
+  "intended": {
+   "aspects": {
+    "staff": "negative",
+    "crowding": "negative",
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r144",
+  "location": "Eastfield",
+  "date": "2026-07-04",
+  "stars": 2,
+  "text": "Showers are cold more often than not. However front desk team are always helpful.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r145",
+  "location": "Quayside",
+  "date": "2026-04-20",
+  "stars": 5,
+  "text": "Good value for the price. Everything gets wiped down regularly. Also loads of kit, never short of dumbbells.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "cleanliness": "positive",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r146",
+  "location": "Eastfield",
+  "date": "2026-06-23",
+  "stars": 5,
+  "text": "Spin class is the best part of my week.",
+  "intended": {
+   "aspects": {
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r147",
+  "location": "Quayside",
+  "date": "2026-03-28",
+  "stars": 3,
+  "text": "Impossible to book a class unless you do it a week ahead. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r148",
+  "location": "Eastfield",
+  "date": "2026-08-24",
+  "stars": 3,
+  "text": "The classes are excellent. However not clean, simple as that but lockers and showers are good. Could be better",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "cleanliness": "negative",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r149",
+  "location": "Quayside",
+  "date": "2026-09-15",
+  "stars": 5,
+  "text": "i go three times a week. lockers and showers are good",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r150",
+  "location": "Eastfield",
+  "date": "2026-07-25",
+  "stars": 5,
+  "text": "Lockers and showers are good.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r151",
+  "location": "Eastfield",
+  "date": "2026-04-27",
+  "stars": 5,
+  "text": "The membership is cheap for what you get.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive"
+   }
+  }
+ },
+ {
+  "id": "r152",
+  "location": "Eastfield",
+  "date": "2026-07-15",
+  "stars": 2,
+  "text": "I go three times a week. The equipment is old and worn out. You need to give a month of notice to cancel. The toilets were disgusting on my last visit. Not renewing.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "cancellation": "neutral",
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r153",
+  "location": "Northgate",
+  "date": "2026-08-01",
+  "stars": 3,
+  "text": "Payment comes out on the first of the month. Lockers and showers are good.",
+  "intended": {
+   "aspects": {
+    "billing": "neutral",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r154",
+  "location": "Eastfield",
+  "date": "2026-09-26",
+  "stars": 5,
+  "text": "Joined in the spring. Lockers and showers are good. Not a speck of dust anywhere. Glad I joined.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive",
+    "cleanliness": "positive"
+   }
+  }
+ },
+ {
+  "id": "r155",
+  "location": "Northgate",
+  "date": "2026-10-02",
+  "stars": 5,
+  "text": "Been a member for about a year. Very clean and it smells fresh. Also the trainers actually know what they are doing. Also did the trial and signed up the same week.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "staff": "positive",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r156",
+  "location": "Quayside",
+  "date": "2026-09-18",
+  "stars": 5,
+  "text": "I go three times a week. Lockers and showers are good.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r157",
+  "location": "Eastfield",
+  "date": "2026-05-31",
+  "stars": 4,
+  "text": "Member since last winter. Lockers are broken and too small. However the trainers actually know what they are doing. Also the free trial made it easy to decide.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "staff": "positive",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r158",
+  "location": "Eastfield",
+  "date": "2026-04-04",
+  "stars": 2,
+  "text": "Member since last winter. It is overpriced. Not renewing",
+  "intended": {
+   "aspects": {
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r159",
+  "location": "Quayside",
+  "date": "2026-06-30",
+  "stars": 5,
+  "text": "I go three times a week. Lockers and showers are good.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r160",
+  "location": "Quayside",
+  "date": "2026-06-14",
+  "stars": 4,
+  "text": "Member since last winter. Membership price is average. My bank statement shows two payments for one month, again. Reception was unhelpful when I had a problem.",
+  "intended": {
+   "aspects": {
+    "pricing": "neutral",
+    "billing": "negative",
+    "staff": "negative"
+   }
+  }
+ },
+ {
+  "id": "r161",
+  "location": "Eastfield",
+  "date": "2026-07-31",
+  "stars": 5,
+  "text": "The staff are friendly and remember you.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r162",
+  "location": "Quayside",
+  "date": "2026-10-03",
+  "stars": 4,
+  "text": "Love that it opens at 6am and there is a small car park.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "positive",
+    "parking": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r163",
+  "location": "Eastfield",
+  "date": "2026-07-23",
+  "stars": 3,
+  "text": "Joined in the spring. There are classes most days. Great range of machines and free weights. Glad I joined.",
+  "intended": {
+   "aspects": {
+    "classes": "neutral",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r164",
+  "location": "Quayside",
+  "date": "2026-03-03",
+  "stars": 5,
+  "text": "Been a member for about a year. The pool and sauna are a real bonus.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r165",
+  "location": "Northgate",
+  "date": "2026-02-13",
+  "stars": 1,
+  "text": "Staff spend more time on their phones than helping and the sauna works about as often as a solar eclipse. Hidden fees on top of the membership price.",
+  "intended": {
+   "aspects": {
+    "staff": "negative",
+    "facilities": "negative",
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r166",
+  "location": "Eastfield",
+  "date": "2026-03-28",
+  "stars": 1,
+  "text": "Bins overflowing in the changing room.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r167",
+  "location": "Eastfield",
+  "date": "2026-04-14",
+  "stars": 3,
+  "text": "Big car park right outside. However the spin class would be lovely if it ever ran. Mixed feelings.",
+  "intended": {
+   "aspects": {
+    "parking": "positive",
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r168",
+  "location": "Eastfield",
+  "date": "2026-05-29",
+  "stars": 1,
+  "text": "First gym I have stuck with. The changing area is filthy and it smells.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r169",
+  "location": "Eastfield",
+  "date": "2026-04-25",
+  "stars": 5,
+  "text": "Love that it opens at 6am and never too busy when I go",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "positive",
+    "crowding": "positive"
+   }
+  }
+ },
+ {
+  "id": "r170",
+  "location": "Northgate",
+  "date": "2026-04-25",
+  "stars": 5,
+  "text": "Great coaches, really patient with beginners. Would recommend.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r171",
+  "location": "Millbrook",
+  "date": "2026-09-18",
+  "stars": 1,
+  "text": "Switched from another gym. The changing area is filthy and it smells.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "negative"
+   }
+  }
+ },
+ {
+  "id": "r172",
+  "location": "Northgate",
+  "date": "2026-07-08",
+  "stars": 5,
+  "text": "Busier in January like everywhere and great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "crowding": "neutral",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r173",
+  "location": "Quayside",
+  "date": "2026-10-07",
+  "stars": 2,
+  "text": "It is overpriced and they would not let me cancel without a month of notice nobody mentioned. Not renewing.",
+  "intended": {
+   "aspects": {
+    "pricing": "negative",
+    "cancellation": "negative"
+   }
+  }
+ },
+ {
+  "id": "r174",
+  "location": "Eastfield",
+  "date": "2026-10-12",
+  "stars": 5,
+  "text": "Joined in the spring. Trainers ignore you unless you pay for sessions. Also too many people and not enough room. On the other hand the free trial made it easy to decide.",
+  "intended": {
+   "aspects": {
+    "staff": "negative",
+    "crowding": "negative",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r175",
+  "location": "Northgate",
+  "date": "2026-09-20",
+  "stars": 1,
+  "text": "Parking is a nightmare.",
+  "intended": {
+   "aspects": {
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r176",
+  "location": "Millbrook",
+  "date": "2026-07-30",
+  "stars": 4,
+  "text": "Loads of kit, never short of dumbbells.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r177",
+  "location": "Northgate",
+  "date": "2026-07-16",
+  "stars": 2,
+  "text": "The sauna has been out of order for weeks. On the other hand the classes are excellent.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r178",
+  "location": "Quayside",
+  "date": "2026-03-26",
+  "stars": 2,
+  "text": "Parking is fun if you like circling for half an hour. Would not recommend.",
+  "intended": {
+   "aspects": {
+    "parking": "negative"
+   }
+  }
+ },
+ {
+  "id": "r179",
+  "location": "Eastfield",
+  "date": "2026-06-17",
+  "stars": 2,
+  "text": "Love waiting twenty minutes for a squat rack, though did the trial and signed up the same week.",
+  "intended": {
+   "aspects": {
+    "crowding": "negative",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r180",
+  "location": "Quayside",
+  "date": "2026-06-21",
+  "stars": 5,
+  "text": "Switched from another gym. The sauna works about as often as a solar eclipse but did the trial and signed up the same week.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "trial": "positive"
+   }
+  }
+ },
+ {
+  "id": "r181",
+  "location": "Quayside",
+  "date": "2026-08-04",
+  "stars": 4,
+  "text": "I was charged twice and it took weeks to fix but the trainers actually know what they are doing. Mixed feelings.",
+  "intended": {
+   "aspects": {
+    "billing": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r182",
+  "location": "Northgate",
+  "date": "2026-04-17",
+  "stars": 3,
+  "text": "It closes too early at weekends. On the other hand great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "schedule_hours": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r183",
+  "location": "Millbrook",
+  "date": "2026-09-26",
+  "stars": 5,
+  "text": "It is quiet in the mornings which I like. Also cleaners come round in the afternoon. Happy here.",
+  "intended": {
+   "aspects": {
+    "crowding": "positive",
+    "cleanliness": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r184",
+  "location": "Northgate",
+  "date": "2026-08-25",
+  "stars": 1,
+  "text": "i go three times a week. great coaches, really patient with beginners and plenty of bike racks and parking.",
+  "intended": {
+   "aspects": {
+    "staff": "positive",
+    "parking": "positive"
+   }
+  }
+ },
+ {
+  "id": "r185",
+  "location": "Northgate",
+  "date": "2026-06-24",
+  "stars": 5,
+  "text": "Great range of machines and free weights.",
+  "intended": {
+   "aspects": {
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r186",
+  "location": "Northgate",
+  "date": "2026-07-14",
+  "stars": 3,
+  "text": "Staff are there if you need them. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "staff": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r187",
+  "location": "Quayside",
+  "date": "2026-10-10",
+  "stars": 2,
+  "text": "Member since last winter. My bank statement shows two payments for one month, again. Also way too crowded in the evenings.",
+  "intended": {
+   "aspects": {
+    "billing": "negative",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r188",
+  "location": "Northgate",
+  "date": "2026-02-05",
+  "stars": 3,
+  "text": "Joined in the spring. The class timetable has something every evening. On the other hand billing mistakes every few months.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r189",
+  "location": "Quayside",
+  "date": "2026-05-18",
+  "stars": 3,
+  "text": "Been a member for about a year. The sauna works about as often as a solar eclipse. The spin class would be lovely if it ever ran, though they cancelled my membership the same day I asked. Three stars from me.",
+  "intended": {
+   "aspects": {
+    "facilities": "negative",
+    "classes": "negative",
+    "cancellation": "positive"
+   }
+  }
+ },
+ {
+  "id": "r190",
+  "location": "Northgate",
+  "date": "2026-05-01",
+  "stars": 3,
+  "text": "The price went up twice this year. On the other hand great variety of classes and good instructors.",
+  "intended": {
+   "aspects": {
+    "pricing": "negative",
+    "classes": "positive"
+   }
+  }
+ },
+ {
+  "id": "r191",
+  "location": "Eastfield",
+  "date": "2026-02-13",
+  "stars": 3,
+  "text": "Member since last winter. Worth the monthly fee, though classes are always fully booked.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "classes": "negative"
+   }
+  }
+ },
+ {
+  "id": "r192",
+  "location": "Quayside",
+  "date": "2026-06-09",
+  "stars": 5,
+  "text": "Great variety of classes and good instructors and the pool and sauna are a real bonus.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r193",
+  "location": "Northgate",
+  "date": "2026-05-21",
+  "stars": 4,
+  "text": "Good value for the price. The staff are friendly and remember you, though my bank statement shows two payments for one month, again.",
+  "intended": {
+   "aspects": {
+    "pricing": "positive",
+    "staff": "positive",
+    "billing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r194",
+  "location": "Eastfield",
+  "date": "2026-04-22",
+  "stars": 5,
+  "text": "Spin class is the best part of my week. Worth the monthly fee.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "pricing": "positive"
+   }
+  }
+ },
+ {
+  "id": "r195",
+  "location": "Quayside",
+  "date": "2026-03-11",
+  "stars": 4,
+  "text": "Parking is fun if you like circling for half an hour. Busier in January like everywhere and lockers and showers are good.",
+  "intended": {
+   "aspects": {
+    "parking": "negative",
+    "crowding": "neutral",
+    "facilities": "positive"
+   }
+  }
+ },
+ {
+  "id": "r196",
+  "location": "Northgate",
+  "date": "2026-05-26",
+  "stars": 3,
+  "text": "Yoga classes are well run. On the other hand trying to freeze my membership was a pain. Also way too crowded in the evenings.",
+  "intended": {
+   "aspects": {
+    "classes": "positive",
+    "cancellation": "negative",
+    "crowding": "negative"
+   }
+  }
+ },
+ {
+  "id": "r197",
+  "location": "Northgate",
+  "date": "2026-02-12",
+  "stars": 3,
+  "text": "The spin class would be loevly if it ever ran but front desk team are always helpful.",
+  "intended": {
+   "aspects": {
+    "classes": "negative",
+    "staff": "positive"
+   }
+  }
+ },
+ {
+  "id": "r198",
+  "location": "Northgate",
+  "date": "2026-05-03",
+  "stars": 3,
+  "text": "Changing rooms are always clean but it is overpriced.",
+  "intended": {
+   "aspects": {
+    "cleanliness": "positive",
+    "pricing": "negative"
+   }
+  }
+ },
+ {
+  "id": "r199",
+  "location": "Quayside",
+  "date": "2026-06-10",
+  "stars": 4,
+  "text": "It has the usual machines and a small free weights area. Could be better.",
+  "intended": {
+   "aspects": {
+    "facilities": "neutral"
+   }
+  }
+ },
+ {
+  "id": "r200",
+  "location": "Northgate",
+  "date": "2026-02-22",
+  "stars": 5,
+  "text": "Great coaches, really patient with beginners.",
+  "intended": {
+   "aspects": {
+    "staff": "positive"
+   }
+  }
+ }
+]
