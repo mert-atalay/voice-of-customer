@@ -2,6 +2,8 @@
 
 Chatbot conversations and public reviews go in. Tagged themes, a frustration score per conversation, a sentiment score per location and a question bank come out. The question bank shows what people actually ask, and which of those questions the website does not answer.
 
+Related case study on [mertatalay.com](https://mertatalay.com): [Being found in Maps and in AI answers](https://mertatalay.com/work/local-and-ai-search/).
+
 ![The report: top themes in chats and reviews, frustration by topic, and a ranked list of questions the website does not answer.](docs/report.png)
 
 *The top of the report from the model run. The full page is in [`docs/example-report.html`](docs/example-report.html).*
